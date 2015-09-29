@@ -1,6 +1,9 @@
 {
 :lang :tsamakko
 :sgpref "tsm"
+:datasource "Sava2005"
+:geodemoURL "http://www.ethnologue.com/language/tsb"
+:geodemoTXT "Varieties and subdialects of Tsamakko are spoken in "
 :schemata {
 :case [:Comitative, :Dative, :Directive, :Locative, :Obj-ka, :Object, :Subject]
 	  :category [:Diff, :InterrGen, :InterrWh]
