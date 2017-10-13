@@ -5,26 +5,25 @@
 :datasource "Sava2005"
 :geodemoURL "http://www.ethnologue.com/language/tsb"
 :geodemoTXT "Varieties and subdialects of Tsamakko are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake Chamo'."
-:schemata{:gender [:Common :Fem :Masc],
-          :genderHead [:HeadCommon :HeadFem :HeadMasc],
-          :derivedClass [:Normal :Verbaliser :OAssim],
-          :polarity [:Affirmative :Common :Negative :Subordinate],
-          :case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
-          :conjClass [:Common :ConjA :ConjB],
-          :stemShape [:CVC :CVC_VC :CVCVC :CVVC],
-          :pdgmType [:ConjA_ConjBComparison :TenseSuffSets :DervStemFormation :Finite :NA :SubjMarkers :ProSuff]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
-          :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
-          :numHead [:HeadPlural :HeadSingular],
-          :morphClass [:ConjA_ConjBComparison :DervStemFormation :ProSuff :SubjMarkers :TenseSuffSets],
-          :defMarker [:SsaClass :SseClass :aClass],
-          :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
-          :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past],
-          :number [:Common :Plural :Singular],
-          :deixis [:Distal :Distal2 :Proximal :Proximal2],
-          :category [:Diff :InterrGen :InterrWh]}
+ :schemata {:case [:Comitative  :Dative :Directive :Locative :Obj_ka :Object :Subject],
+            :category [:Diff :InterrGen :InterrWh],
+            :conjClass [:Common :ConjA :ConjB],
+            :defMarker [:SsaClass :SseClass :aClass],
+            :deixis [:Distal :Distal2 :Proximal :Proximal2],
+            :derivedClass [:Normal :OAssim :Verbaliser],
+            :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Common :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Common :Negative :Subordinate],
+            :pos [:Pronoun :Verb],
+            :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
+            :stemShape [:CVC :CVCVC :CVC_VC :CVVC],
+            :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
+            :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past]
+            :pdgmType [:ConjA_ConjBComparison :DervStemFormation :Finite :ProSuff :SubjMarkers :TenseSuffSets :PRO]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :category :defMarker :deixis :derivedClass :derivedStem :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :suffixSet :stemShape],
@@ -56,8 +55,7 @@
     :common {:conjClass :ConjA,
              :lexeme :ug,
              :pos :Verb,
-             :tam :Aorist,
-             :morphClass :ConjA_ConjBComparison}
+             :tam :Aorist}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ʕúg-í"],
             [:Singular :Person2 :Common "ʕúg-dí*"],
@@ -849,8 +847,7 @@
     :common {:conjClass :ConjA,
              :lexeme :ug,
              :pos :Verb,
-             :tam :Consecutive,
-             :morphClass :ConjA_ConjBComparison}
+             :tam :Consecutive}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ʕúg-á"],
             [:Singular :Person2 :Common "ʕúg-áy"],
@@ -868,8 +865,7 @@
              :lexeme :ug,
              :person :Person2,
              :pos :Verb,
-             :tam :Imperative,
-             :morphClass :ConjA_ConjBComparison}
+             :tam :Imperative}
     :terms [[:number :token],
             [:Singular "ʕúg"],
             [:Plural "ʕug-á"]]
@@ -880,8 +876,7 @@
     :common {:conjClass :ConjB,
              :lexeme :zi,
              :pos :Verb,
-             :tam :Aorist,
-             :morphClass :ConjA_ConjBComparison}
+             :tam :Aorist}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "zíʔ-i"],
             [:Singular :Person2 :Common "zíʔ-ti"],
@@ -1673,8 +1668,7 @@
     :common {:conjClass :ConjB,
              :lexeme :zi,
              :pos :Verb,
-             :tam :Consecutive,
-             :morphClass :ConjA_ConjBComparison}
+             :tam :Consecutive}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "zíʔ-ó"],
             [:Singular :Person2 :Common "zíʔ-óy"],
@@ -1692,8 +1686,7 @@
              :gender :Common,
              :person :Person2,
              :pos :Verb,
-             :tam :Imperative,
-             :morphClass :ConjA_ConjBComparison}
+             :tam :Imperative}
     :terms [[:number :token],
             [:Singular "ziʔ-á"],
             [:Plural "ziʔ-inɗá"]]
@@ -1702,9 +1695,8 @@
 :muterms [
     {:label "tsamakko-PDefMarker"
     :note "Sava2005 Table 26"
-    :pdgmType :NA
-    :common {:morpheme :PRODEFMARKER,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :DefMarker}
     :terms [[:defMarker :number :gender :token],
             [:SsaClass :Singular :Masc "kosa ~ kossa"],
@@ -1719,9 +1711,8 @@
     }
     {:label "tsamakko-PDem"
     :note "Sava2005 Table 27"
-    :pdgmType :NA
-    :common {:morpheme :PRODEM,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:deixis :number :gender :token],
             [:Distal :Singular :Masc "kotta"],
@@ -1737,9 +1728,8 @@
     }
     {:label "tsamakko-PInd"
     :note "Pdgm = Sava2005 tables 19 and 25. Note also Table 22:Haplology in 1Pl dative pronoun:1Pl regular form is ʔine;cliticisation of =nnu gives *ʔine=nnu;reduction gives ʔi=nnu. Table 23 Syllabification of 1Sg,2SgM,and 2SgF dative pronouns:1sg *ʔee=nnu goes_to *ʔeen.nu goes_to ʔin.nu;2sg m *koo=nnu goes_to *koon.nu goes_to kun.nu;2sg f *kee=nnu goes_to *keen.nu goes_to kin.nu. Table 24:Syllabification of 1sg,2SgM,and 2SgF directive pronouns:1sg ʔee=ma goes_to ʔee.ma;2sg m koo=ma goes_to koo.ma;2sg f kee=ma goes_to kee.ma."
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Comitative :Singular :Person1 :Common "ʔee=ya"],
@@ -1801,9 +1791,8 @@
     }
     {:label "tsamakko-PInterrDiff"
     :note "Sava2005 Tables 29,30,31. interrGen = ‘whose?’;interrWh = ‘which?’;diff = ‘other’"
-    :pdgmType :NA
-    :common {:morpheme :PROINTERR,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :InterrDiff}
     :terms [[:category :number :gender :token],
             [:Diff :Singular :Masc "kuɓa"],
@@ -1818,9 +1807,8 @@
     }
     {:label "tsamakko-PLoc"
     :note "Sava2005 Table 32"
-    :pdgmType :NA
-    :common {:morpheme :PROLOC,
-             :person :Person3,
+    :pdgmType :PRO
+    :common {:person :Person3,
              :pos :Pronoun,
              :proClass :LocativePro}
     :terms [[:case :number :gender :token],
@@ -1839,9 +1827,8 @@
     }
     {:label "tsamakko-PPossInd"
     :note "Sava2005 Table"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossInd}
     :terms [[:genderHead :numHead :number :person :gender :token],
             [:HeadCommon :HeadPlural :Singular :Person1 :Common "kaayu"],
@@ -1871,9 +1858,8 @@
     }
     {:label "tsamakko-PPossSuff"
     :note "Sava2005 Table 21"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSSUFF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-aayu"],
@@ -1887,9 +1873,8 @@
     }
     {:label "tsamakko-PProParticle"
     :note "Sava2005 Table 20"
-    :pdgmType :NA
-    :common {:morpheme :PROPARTICLE,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :ProParticle}
     :terms [[:number :gender :token],
             [:Singular :Masc "ko / ku"],
@@ -1899,9 +1884,7 @@
     {:label "tsamakko-VDervStemFormation"
     :note "Sava2005 Table 44. Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om."
     :pdgmType :DervStemFormation
-    :common {:morpheme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStemFormation}
+    :common {:pos :Verb}
     :terms [[:derivedClass :derivedStem :token],
             [:Normal :Causative1 "-as"],
             [:Normal :Causative2 "-is"],
@@ -1925,9 +1908,7 @@
     {:label "tsamakko-VProSuff"
     :note "Sava2005 Table 37"
     :pdgmType :ProSuff
-    :common {:morpheme :PROSUFF,
-             :pos :Verb,
-             :morphClass :ProSuff}
+    :common {:pos :Verb}
     :terms [[:suffixSet :number :person :gender :token],
             [:SuffSet1 :Singular :Person1 :Common "-V"],
             [:SuffSet1 :Singular :Person2 :Common "-tV"],
@@ -1968,9 +1949,7 @@
     {:label "tsamakko-VSubjMarkers"
     :note "Sava2005 Table 43"
     :pdgmType :SubjMarkers
-    :common {:morpheme :SUBJMARKERS,
-             :pos :Verb,
-             :morphClass :SubjMarkers}
+    :common {:pos :Verb}
     :terms [[:conjClass :polarity :suffixSet :tam :token],
             [:Common :Common :SuffSet1 :Jussive "-(t/n)-á"],
             [:Common :Common :SuffSet1 :Jussive "⊤"],
@@ -1996,9 +1975,7 @@
     {:label "tsamakko-VTenseSuffSets"
     :note "Sava2005 Tables 38-42. Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp. 149f. See Sava,pp. 158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative."
     :pdgmType :TenseSuffSets
-    :common {:morpheme :TENSESUFFSETS,
-             :pos :Verb,
-             :morphClass :TenseSuffSets}
+    :common {:pos :Verb}
     :terms [[:conjClass :polarity :suffixSet :tam :number :person :gender :token],
             [:Common :Affirmative :SuffSet1 :Jussive :Singular :Person1 :Common "⊤"],
             [:Common :Affirmative :SuffSet1 :Jussive :Singular :Person2 :Common "_NULL"],
