@@ -5,10 +5,30 @@
 :datasource "Sava2005"
 :geodemoURL "http://www.ethnologue.com/language/tsb"
 :geodemoTXT "Varieties and subdialects of Tsamakko are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake Chamo'."
+ :schemata {:vmorphClass [:ConjA_ConjBComparison  :DervStemFormation :ProSuff :SubjMarkers :TenseSuffSets],
+            :case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
+            :category [:Diff :InterrGen :InterrWh],
+            :conjClass [:Common :ConjA :ConjB],
+            :defMarker [:AClass :SsaClass :SseClass],
+            :deixis [:Distal :Distal2 :Proximal :Proximal2],
+            :derivedClass [:Normal :OAssim :Verbaliser],
+            :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Common :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Common :Negative :Subordinate],
+            :pos [:Pronoun :Verb],
+            :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
+            :stemShape [:CVC :CVCVC :CVC_VC :CVVC],
+            :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
+            :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past]
+            :pdgmType [:ConjA_ConjBComparison :Finite :PRO :VOther]}
  :schemata {:case [:Comitative  :Dative :Directive :Locative :Obj_ka :Object :Subject],
             :category [:Diff :InterrGen :InterrWh],
             :conjClass [:Common :ConjA :ConjB],
-            :defMarker [:SsaClass :SseClass :aClass],
+            :defMarker [:SsaClass :SseClass :AClass],
             :deixis [:Distal :Distal2 :Proximal :Proximal2],
             :derivedClass [:Normal :OAssim :Verbaliser],
             :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
@@ -51,8 +71,9 @@
 :lxterms [
     {:label "tsamakko-VConjAAoristConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-    :pdgmType :ConjA_ConjBComparison
-    :common {:conjClass :ConjA,
+    :pdgmType :VOther
+    :common {:vmorphClass :ConjA_ConjBComparison
+             :conjClass :ConjA,
              :lexeme :ug,
              :pos :Verb,
              :tam :Aorist}
@@ -1705,9 +1726,9 @@
             [:SseClass :Singular :Masc "kosse"],
             [:SseClass :Singular :Fem "tesse"],
             [:SseClass :Plural :Common "kesse"],
-            [:aClass :Singular :Masc "koʔa"],
-            [:aClass :Singular :Fem "teʔa"],
-            [:aClass :Plural :Common "keʔa"]]
+            [:AClass :Singular :Masc "koʔa"],
+            [:AClass :Singular :Fem "teʔa"],
+            [:AClass :Plural :Common "keʔa"]]
     }
     {:label "tsamakko-PDem"
     :note "Sava2005 Table 27"
@@ -1883,8 +1904,9 @@
     }
     {:label "tsamakko-VDervStemFormation"
     :note "Sava2005 Table 44. Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om."
-    :pdgmType :DervStemFormation
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStemFormation
+             :pos :Verb}
     :terms [[:derivedClass :derivedStem :token],
             [:Normal :Causative1 "-as"],
             [:Normal :Causative2 "-is"],
@@ -1907,8 +1929,9 @@
     }
     {:label "tsamakko-VProSuff"
     :note "Sava2005 Table 37"
-    :pdgmType :ProSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :ProSuff
+             :pos :Verb}
     :terms [[:suffixSet :number :person :gender :token],
             [:SuffSet1 :Singular :Person1 :Common "-V"],
             [:SuffSet1 :Singular :Person2 :Common "-tV"],
@@ -1948,8 +1971,9 @@
     }
     {:label "tsamakko-VSubjMarkers"
     :note "Sava2005 Table 43"
-    :pdgmType :SubjMarkers
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkers
+             :pos :Verb}
     :terms [[:conjClass :polarity :suffixSet :tam :token],
             [:Common :Common :SuffSet1 :Jussive "-(t/n)-á"],
             [:Common :Common :SuffSet1 :Jussive "⊤"],
@@ -1974,8 +1998,9 @@
     }
     {:label "tsamakko-VTenseSuffSets"
     :note "Sava2005 Tables 38-42. Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp. 149f. See Sava,pp. 158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative."
-    :pdgmType :TenseSuffSets
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :TenseSuffSets
+             :pos :Verb}
     :terms [[:conjClass :polarity :suffixSet :tam :number :person :gender :token],
             [:Common :Affirmative :SuffSet1 :Jussive :Singular :Person1 :Common "⊤"],
             [:Common :Affirmative :SuffSet1 :Jussive :Singular :Person2 :Common "_NULL"],
