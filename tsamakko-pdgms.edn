@@ -56,7 +56,7 @@
     }
     {:label "tsamakko-VConjACVC-VCAffAorist-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
@@ -74,7 +74,7 @@
     }
     {:label "tsamakko-VConjACVC-VCAffConsecutive-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
@@ -92,7 +92,7 @@
     }
     {:label "tsamakko-VConjACVC-VCAffFuture-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
@@ -110,7 +110,7 @@
     }
     {:label "tsamakko-VConjACVC-VCAffImperf-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
@@ -128,7 +128,7 @@
     }
     {:label "tsamakko-VConjACVC-VCAffImprtv-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :gender :Common,
              :lexeme :kais,
@@ -142,7 +142,7 @@
     }
     {:label "tsamakko-VConjACVC-VCAffJuss-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
@@ -160,7 +160,7 @@
     }
     {:label "tsamakko-VConjACVC-VCNegFuture-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
@@ -178,7 +178,7 @@
     }
     {:label "tsamakko-VConjACVC-VCNegJuss-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
@@ -196,7 +196,7 @@
     }
     {:label "tsamakko-VConjACVC-VCNegNonPast-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
@@ -214,7 +214,7 @@
     }
     {:label "tsamakko-VConjACVC-VCNegPast-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
@@ -232,7 +232,7 @@
     }
     {:label "tsamakko-VConjACVC-VCSubFuture-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :kais,
              :polarity :Subordinate,
@@ -250,7 +250,7 @@
     }
     {:label "tsamakko-VConjACVCAffAorist-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
@@ -268,7 +268,7 @@
     }
     {:label "tsamakko-VConjACVCAffConsecutive-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
@@ -286,7 +286,7 @@
     }
     {:label "tsamakko-VConjACVCAffFuture-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
@@ -304,7 +304,7 @@
     }
     {:label "tsamakko-VConjACVCAffImperf-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
@@ -322,7 +322,7 @@
     }
     {:label "tsamakko-VConjACVCAffImprtv-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :gender :Common,
              :lexeme :ug,
@@ -336,7 +336,7 @@
     }
     {:label "tsamakko-VConjACVCAffJuss-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
@@ -354,7 +354,7 @@
     }
     {:label "tsamakko-VConjACVCNegFuture-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
@@ -372,7 +372,7 @@
     }
     {:label "tsamakko-VConjACVCNegJuss-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
@@ -390,7 +390,7 @@
     }
     {:label "tsamakko-VConjACVCNegNonPast-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
@@ -408,7 +408,7 @@
     }
     {:label "tsamakko-VConjACVCNegPast-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
@@ -426,7 +426,7 @@
     }
     {:label "tsamakko-VConjACVCSubFuture-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ug,
              :polarity :Subordinate,
@@ -444,7 +444,7 @@
     }
     {:label "tsamakko-VConjACVCVCAffAorist-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
@@ -462,7 +462,7 @@
     }
     {:label "tsamakko-VConjACVCVCAffConsecutive-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
@@ -480,7 +480,7 @@
     }
     {:label "tsamakko-VConjACVCVCAffFuture-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
@@ -498,7 +498,7 @@
     }
     {:label "tsamakko-VConjACVCVCAffImperf-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
@@ -516,7 +516,7 @@
     }
     {:label "tsamakko-VConjACVCVCAffImprtv-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :gender :Common,
              :lexeme :qaba,
@@ -530,7 +530,7 @@
     }
     {:label "tsamakko-VConjACVCVCAffJuss-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
@@ -548,7 +548,7 @@
     }
     {:label "tsamakko-VConjACVCVCNegFuture-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
@@ -566,7 +566,7 @@
     }
     {:label "tsamakko-VConjACVCVCNegJuss-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
@@ -584,7 +584,7 @@
     }
     {:label "tsamakko-VConjACVCVCNegNonPast-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
@@ -602,7 +602,7 @@
     }
     {:label "tsamakko-VConjACVCVCNegPast-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
@@ -620,7 +620,7 @@
     }
     {:label "tsamakko-VConjACVCVCSubFuture-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Subordinate,
@@ -638,7 +638,7 @@
     }
     {:label "tsamakko-VConjACVVCAffAorist-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
@@ -656,7 +656,7 @@
     }
     {:label "tsamakko-VConjACVVCAffConsecutive-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
@@ -674,7 +674,7 @@
     }
     {:label "tsamakko-VConjACVVCAffFuture-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
@@ -692,7 +692,7 @@
     }
     {:label "tsamakko-VConjACVVCAffImperf-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
@@ -710,7 +710,7 @@
     }
     {:label "tsamakko-VConjACVVCAffImprtv-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :gender :Common,
              :lexeme :ooy,
@@ -724,7 +724,7 @@
     }
     {:label "tsamakko-VConjACVVCAffJuss-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
@@ -742,7 +742,7 @@
     }
     {:label "tsamakko-VConjACVVCNegFuture-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
@@ -760,7 +760,7 @@
     }
     {:label "tsamakko-VConjACVVCNegJuss-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
@@ -778,7 +778,7 @@
     }
     {:label "tsamakko-VConjACVVCNegNonPast-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
@@ -796,7 +796,7 @@
     }
     {:label "tsamakko-VConjACVVCNegPast-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
@@ -814,7 +814,7 @@
     }
     {:label "tsamakko-VConjACVVCSubFuture-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Subordinate,
@@ -874,7 +874,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffAorist-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
@@ -892,7 +892,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffConsecutive-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
@@ -910,7 +910,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffFuture-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
@@ -928,7 +928,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffImperf-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
@@ -946,7 +946,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffImprtv-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :gender :Common,
              :lexeme :zoq-am,
@@ -960,7 +960,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffJuss-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
@@ -978,7 +978,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegFuture-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
@@ -996,7 +996,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegJuss-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
@@ -1014,7 +1014,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegNonPast-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
@@ -1032,7 +1032,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegPast-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
@@ -1050,7 +1050,7 @@
     }
     {:label "tsamakko-VConjBCVC-VCSubFuture-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Subordinate,
@@ -1068,7 +1068,7 @@
     }
     {:label "tsamakko-VConjBCVCAffAorist-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
@@ -1086,7 +1086,7 @@
     }
     {:label "tsamakko-VConjBCVCAffConsecutive-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
@@ -1104,7 +1104,7 @@
     }
     {:label "tsamakko-VConjBCVCAffFuture-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
@@ -1122,7 +1122,7 @@
     }
     {:label "tsamakko-VConjBCVCAffImperf-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
@@ -1140,7 +1140,7 @@
     }
     {:label "tsamakko-VConjBCVCAffImprtv-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :gender :Common,
              :lexeme :zi,
@@ -1154,7 +1154,7 @@
     }
     {:label "tsamakko-VConjBCVCAffJuss-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
@@ -1172,7 +1172,7 @@
     }
     {:label "tsamakko-VConjBCVCNegFuture-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
@@ -1190,7 +1190,7 @@
     }
     {:label "tsamakko-VConjBCVCNegJuss-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
@@ -1208,7 +1208,7 @@
     }
     {:label "tsamakko-VConjBCVCNegNonPast-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
@@ -1226,7 +1226,7 @@
     }
     {:label "tsamakko-VConjBCVCNegPast-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
@@ -1244,7 +1244,7 @@
     }
     {:label "tsamakko-VConjBCVCSubFuture-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :zi,
              :polarity :Subordinate,
@@ -1262,7 +1262,7 @@
     }
     {:label "tsamakko-VConjBCVCVCAffAorist-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
@@ -1280,7 +1280,7 @@
     }
     {:label "tsamakko-VConjBCVCVCAffConsecutive-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
@@ -1298,7 +1298,7 @@
     }
     {:label "tsamakko-VConjBCVCVCAffFuture-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
@@ -1316,7 +1316,7 @@
     }
     {:label "tsamakko-VConjBCVCVCAffImperf-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
@@ -1334,7 +1334,7 @@
     }
     {:label "tsamakko-VConjBCVCVCAffImprtv-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :gender :Common,
              :lexeme :abun,
@@ -1348,7 +1348,7 @@
     }
     {:label "tsamakko-VConjBCVCVCAffJuss-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
@@ -1366,7 +1366,7 @@
     }
     {:label "tsamakko-VConjBCVCVCNegFuture-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
@@ -1384,7 +1384,7 @@
     }
     {:label "tsamakko-VConjBCVCVCNegJuss-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
@@ -1402,7 +1402,7 @@
     }
     {:label "tsamakko-VConjBCVCVCNegNonPast-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
@@ -1420,7 +1420,7 @@
     }
     {:label "tsamakko-VConjBCVCVCNegPast-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
@@ -1438,7 +1438,7 @@
     }
     {:label "tsamakko-VConjBCVCVCSubFuture-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :abun,
              :polarity :Subordinate,
@@ -1456,7 +1456,7 @@
     }
     {:label "tsamakko-VConjBCVVCAffAorist-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
@@ -1474,7 +1474,7 @@
     }
     {:label "tsamakko-VConjBCVVCAffConsecutive-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
@@ -1492,7 +1492,7 @@
     }
     {:label "tsamakko-VConjBCVVCAffFuture-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
@@ -1510,7 +1510,7 @@
     }
     {:label "tsamakko-VConjBCVVCAffImperf-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
@@ -1528,7 +1528,7 @@
     }
     {:label "tsamakko-VConjBCVVCAffImprtv-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :gender :Common,
              :lexeme :bod,
@@ -1542,7 +1542,7 @@
     }
     {:label "tsamakko-VConjBCVVCAffJuss-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
@@ -1560,7 +1560,7 @@
     }
     {:label "tsamakko-VConjBCVVCNegFuture-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
@@ -1578,7 +1578,7 @@
     }
     {:label "tsamakko-VConjBCVVCNegJuss-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
@@ -1596,7 +1596,7 @@
     }
     {:label "tsamakko-VConjBCVVCNegNonPast-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
@@ -1614,7 +1614,7 @@
     }
     {:label "tsamakko-VConjBCVVCNegPast-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
@@ -1632,7 +1632,7 @@
     }
     {:label "tsamakko-VConjBCVVCSubFuture-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphclass :Finite
+    :common {:vmorphClass :Finite
 :conjClass :ConjB,
              :lexeme :bod,
              :polarity :Subordinate,
