@@ -4,31 +4,43 @@
 :sgpref "tsm"
 :datasource "Sava2005"
 :geodemoURL "http://www.ethnologue.com/language/tsb"
-:geodemoTXT "Tsamakko is a representative of a group of languages often referred to as 'Dullay' Varieties and subdialects of Tsamakko are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake Chamo'. Other kinds of Dullay are described in Amborn-etal1980."
-:schemata {:case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
-           :category [:Diff :InterrGen :InterrWh],
-           :conjClass [:Common :ConjA :ConjB],
-           :defMarker [:AClass :SsaClass :SseClass],
-           :deixis [:Distal :Distal2 :Proximal :Proximal2],
-           :derivedClass [:Normal :OAssim :Verbaliser],
-           :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
-           :gender [:Common :Fem :Masc],
-           :genderHead [:HeadCommon :HeadFem :HeadMasc],
-           :numHead [:HeadPlural :HeadSingular],
-           :number [:Common :Plural :Singular],
-           :person [:Person1 :Person2 :Person3],
-           :polarity [:Affirmative :Common :Negative :Subordinate],
-           :pos [:Pronoun :Verb],
-           :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
-           :stemShape [:CVC :CVCVC :CVC_VC :CVVC],
-           :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
-           :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past],
-           :vmorphClass [:Finite :ConjA_ConjBComparison :DervStemFormation :ProSuff :SubjMarkers :TenseSuffSets]
-           }
- :pclass {:pngClass [:person :number :gender :genderHead :numHead],
+:geodemoTXT "Varieties and subdialects of Tsamakko are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake Chamo'."
+:schemata{:gender [:Common :Fem :Masc],
+          :genderHead [:HeadCommon :HeadFem :HeadMasc],
+          :derivedClass [:Normal :Verbaliser :OAssim],
+          :polarity [:Affirmative :Common :Negative :Subordinate],
+          :case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
+          :conjClass [:Common :ConjA :ConjB],
+          :stemShape [:CVC :CVC_VC :CVCVC :CVVC],
+          :pdgmType [:ConjA_ConjBComparison :TenseSuffSets :DervStemFormation :Finite :NA :SubjMarkers :ProSuff]
+          :pos [:Pronoun :Verb],
+          :person [:Person1 :Person2 :Person3],
+          :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
+          :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
+          :numHead [:HeadPlural :HeadSingular],
+          :morphClass [:ConjA_ConjBComparison :DervStemFormation :ProSuff :SubjMarkers :TenseSuffSets],
+          :defMarker [:SsaClass :SseClass :aClass],
+          :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
+          :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past],
+          :number [:Common :Plural :Singular],
+          :deixis [:Distal :Distal2 :Proximal :Proximal2],
+          :category [:Diff :InterrGen :InterrWh]}
+:pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :category :defMarker :deixis :derivedClass :derivedStem :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :suffixSet :stemShape],
           :otherClass []}
+:morphemes{:PRODEFMARKER {:gloss "[x]", :lemma "[y]"},
+           :PROSUFF {:gloss "[x]", :lemma "[y]"},
+           :PROPARTICLE {:gloss "[x]", :lemma "[y]"},
+           :PROPOSSIND {:gloss "[x]", :lemma "[y]"},
+           :PROIND {:gloss "[x]", :lemma "[y]"},
+           :PROINTERR {:gloss "[x]", :lemma "[y]"},
+           :PRODEM {:gloss "[x]", :lemma "[y]"},
+           :TENSESUFFSETS {:gloss "[x]", :lemma "[y]"},
+           :SUBJMARKERS {:gloss "[x]", :lemma "[y]"},
+           :PROPOSSSUFF {:gloss "[x]", :lemma "[y]"},
+           :DERVSTEM {:gloss "[x]", :lemma "[y]"},
+           :PROLOC {:gloss "[x]", :lemma "[y]"}}
 :lexemes{:abun {:lemma "ʔabun-", :gloss "rock", :conjClass :ConjB, :pos :Verb},
            :bod {:lemma "bood-", :gloss "dig", :conjClass :ConjB, :pos :Verb},
            :kais {:lemma "kaʔ-is-", :gloss "make sb. stand up", :conjClass :ConjA, :pos :Verb},
@@ -37,14 +49,15 @@
            :ug {:lemma "ʕug", :gloss "drink", :conjClass :ConjA, :pos :Verb},
            :zi {:lemma "žíʔ", :gloss "eat", :conjClass :ConjB, :pos :Verb},
            :zoq-am {:lemma "žoq’-am-", :gloss "be beaten", :conjClass :ConjB, :pos :Verb}}
-:termclusters [
+:lxterms [
     {:label "tsamakko-VConjAAoristConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-        :common {:vmorphClass :ConjA_ConjBComparison
-             :conjClass :ConjA,
+    :pdgmType :ConjA_ConjBComparison
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :pos :Verb,
-             :tam :Aorist}
+             :tam :Aorist,
+             :morphClass :ConjA_ConjBComparison}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ʕúg-í"],
             [:Singular :Person2 :Common "ʕúg-dí*"],
@@ -56,8 +69,8 @@
     }
     {:label "tsamakko-VConjACVC-VCAffAorist-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
              :pos :Verb,
@@ -74,8 +87,8 @@
     }
     {:label "tsamakko-VConjACVC-VCAffConsecutive-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
              :pos :Verb,
@@ -92,8 +105,8 @@
     }
     {:label "tsamakko-VConjACVC-VCAffFuture-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
              :pos :Verb,
@@ -110,8 +123,8 @@
     }
     {:label "tsamakko-VConjACVC-VCAffImperf-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
              :pos :Verb,
@@ -128,8 +141,8 @@
     }
     {:label "tsamakko-VConjACVC-VCAffImprtv-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :gender :Common,
              :lexeme :kais,
              :polarity :Affirmative,
@@ -142,8 +155,8 @@
     }
     {:label "tsamakko-VConjACVC-VCAffJuss-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Affirmative,
              :pos :Verb,
@@ -160,8 +173,8 @@
     }
     {:label "tsamakko-VConjACVC-VCNegFuture-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
              :pos :Verb,
@@ -178,8 +191,8 @@
     }
     {:label "tsamakko-VConjACVC-VCNegJuss-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
              :pos :Verb,
@@ -196,8 +209,8 @@
     }
     {:label "tsamakko-VConjACVC-VCNegNonPast-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
              :pos :Verb,
@@ -214,8 +227,8 @@
     }
     {:label "tsamakko-VConjACVC-VCNegPast-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Negative,
              :pos :Verb,
@@ -232,8 +245,8 @@
     }
     {:label "tsamakko-VConjACVC-VCSubFuture-kais"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :kais,
              :polarity :Subordinate,
              :pos :Verb,
@@ -250,8 +263,8 @@
     }
     {:label "tsamakko-VConjACVCAffAorist-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
              :pos :Verb,
@@ -268,8 +281,8 @@
     }
     {:label "tsamakko-VConjACVCAffConsecutive-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
              :pos :Verb,
@@ -286,8 +299,8 @@
     }
     {:label "tsamakko-VConjACVCAffFuture-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
              :pos :Verb,
@@ -304,8 +317,8 @@
     }
     {:label "tsamakko-VConjACVCAffImperf-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
              :pos :Verb,
@@ -322,8 +335,8 @@
     }
     {:label "tsamakko-VConjACVCAffImprtv-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :gender :Common,
              :lexeme :ug,
              :polarity :Affirmative,
@@ -336,8 +349,8 @@
     }
     {:label "tsamakko-VConjACVCAffJuss-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Affirmative,
              :pos :Verb,
@@ -354,8 +367,8 @@
     }
     {:label "tsamakko-VConjACVCNegFuture-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
              :pos :Verb,
@@ -372,8 +385,8 @@
     }
     {:label "tsamakko-VConjACVCNegJuss-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
              :pos :Verb,
@@ -390,8 +403,8 @@
     }
     {:label "tsamakko-VConjACVCNegNonPast-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
              :pos :Verb,
@@ -408,8 +421,8 @@
     }
     {:label "tsamakko-VConjACVCNegPast-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Negative,
              :pos :Verb,
@@ -426,8 +439,8 @@
     }
     {:label "tsamakko-VConjACVCSubFuture-ug"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :polarity :Subordinate,
              :pos :Verb,
@@ -444,8 +457,8 @@
     }
     {:label "tsamakko-VConjACVCVCAffAorist-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
              :pos :Verb,
@@ -462,8 +475,8 @@
     }
     {:label "tsamakko-VConjACVCVCAffConsecutive-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
              :pos :Verb,
@@ -480,8 +493,8 @@
     }
     {:label "tsamakko-VConjACVCVCAffFuture-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
              :pos :Verb,
@@ -498,8 +511,8 @@
     }
     {:label "tsamakko-VConjACVCVCAffImperf-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
              :pos :Verb,
@@ -516,8 +529,8 @@
     }
     {:label "tsamakko-VConjACVCVCAffImprtv-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :gender :Common,
              :lexeme :qaba,
              :polarity :Affirmative,
@@ -530,8 +543,8 @@
     }
     {:label "tsamakko-VConjACVCVCAffJuss-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Affirmative,
              :pos :Verb,
@@ -548,8 +561,8 @@
     }
     {:label "tsamakko-VConjACVCVCNegFuture-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
              :pos :Verb,
@@ -566,8 +579,8 @@
     }
     {:label "tsamakko-VConjACVCVCNegJuss-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
              :pos :Verb,
@@ -584,8 +597,8 @@
     }
     {:label "tsamakko-VConjACVCVCNegNonPast-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
              :pos :Verb,
@@ -602,8 +615,8 @@
     }
     {:label "tsamakko-VConjACVCVCNegPast-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Negative,
              :pos :Verb,
@@ -620,8 +633,8 @@
     }
     {:label "tsamakko-VConjACVCVCSubFuture-qaba"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :qaba,
              :polarity :Subordinate,
              :pos :Verb,
@@ -638,8 +651,8 @@
     }
     {:label "tsamakko-VConjACVVCAffAorist-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
              :pos :Verb,
@@ -656,8 +669,8 @@
     }
     {:label "tsamakko-VConjACVVCAffConsecutive-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
              :pos :Verb,
@@ -674,8 +687,8 @@
     }
     {:label "tsamakko-VConjACVVCAffFuture-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
              :pos :Verb,
@@ -692,8 +705,8 @@
     }
     {:label "tsamakko-VConjACVVCAffImperf-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
              :pos :Verb,
@@ -710,8 +723,8 @@
     }
     {:label "tsamakko-VConjACVVCAffImprtv-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :gender :Common,
              :lexeme :ooy,
              :polarity :Affirmative,
@@ -724,8 +737,8 @@
     }
     {:label "tsamakko-VConjACVVCAffJuss-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Affirmative,
              :pos :Verb,
@@ -742,8 +755,8 @@
     }
     {:label "tsamakko-VConjACVVCNegFuture-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
              :pos :Verb,
@@ -760,8 +773,8 @@
     }
     {:label "tsamakko-VConjACVVCNegJuss-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
              :pos :Verb,
@@ -778,8 +791,8 @@
     }
     {:label "tsamakko-VConjACVVCNegNonPast-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
              :pos :Verb,
@@ -796,8 +809,8 @@
     }
     {:label "tsamakko-VConjACVVCNegPast-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Negative,
              :pos :Verb,
@@ -814,8 +827,8 @@
     }
     {:label "tsamakko-VConjACVVCSubFuture-ooy"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjA,
+    :pdgmType :Finite
+    :common {:conjClass :ConjA,
              :lexeme :ooy,
              :polarity :Subordinate,
              :pos :Verb,
@@ -832,10 +845,12 @@
     }
     {:label "tsamakko-VConjAConsecutiveConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-        :common {:conjClass :ConjA,
+    :pdgmType :ConjA_ConjBComparison
+    :common {:conjClass :ConjA,
              :lexeme :ug,
              :pos :Verb,
-             :tam :Consecutive}
+             :tam :Consecutive,
+             :morphClass :ConjA_ConjBComparison}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "ʕúg-á"],
             [:Singular :Person2 :Common "ʕúg-áy"],
@@ -847,22 +862,26 @@
     }
     {:label "tsamakko-VConjAImprtvConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-        :common {:conjClass :ConjA,
+    :pdgmType :ConjA_ConjBComparison
+    :common {:conjClass :ConjA,
              :gender :Common,
              :lexeme :ug,
              :person :Person2,
              :pos :Verb,
-             :tam :Imperative}
+             :tam :Imperative,
+             :morphClass :ConjA_ConjBComparison}
     :terms [[:number :token],
             [:Singular "ʕúg"],
             [:Plural "ʕug-á"]]
     }
     {:label "tsamakko-VConjBAoristConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-        :common {:conjClass :ConjB,
+    :pdgmType :ConjA_ConjBComparison
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :pos :Verb,
-             :tam :Aorist}
+             :tam :Aorist,
+             :morphClass :ConjA_ConjBComparison}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "zíʔ-i"],
             [:Singular :Person2 :Common "zíʔ-ti"],
@@ -874,8 +893,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffAorist-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
              :pos :Verb,
@@ -892,8 +911,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffConsecutive-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
              :pos :Verb,
@@ -910,8 +929,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffFuture-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
              :pos :Verb,
@@ -928,8 +947,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffImperf-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
              :pos :Verb,
@@ -946,8 +965,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffImprtv-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :gender :Common,
              :lexeme :zoq-am,
              :polarity :Affirmative,
@@ -960,8 +979,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCAffJuss-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Affirmative,
              :pos :Verb,
@@ -978,8 +997,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegFuture-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
              :pos :Verb,
@@ -996,8 +1015,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegJuss-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
              :pos :Verb,
@@ -1014,8 +1033,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegNonPast-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
              :pos :Verb,
@@ -1032,8 +1051,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCNegPast-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Negative,
              :pos :Verb,
@@ -1050,8 +1069,8 @@
     }
     {:label "tsamakko-VConjBCVC-VCSubFuture-zoq-am"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zoq-am,
              :polarity :Subordinate,
              :pos :Verb,
@@ -1068,8 +1087,8 @@
     }
     {:label "tsamakko-VConjBCVCAffAorist-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1086,8 +1105,8 @@
     }
     {:label "tsamakko-VConjBCVCAffConsecutive-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1104,8 +1123,8 @@
     }
     {:label "tsamakko-VConjBCVCAffFuture-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1122,8 +1141,8 @@
     }
     {:label "tsamakko-VConjBCVCAffImperf-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1140,8 +1159,8 @@
     }
     {:label "tsamakko-VConjBCVCAffImprtv-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :gender :Common,
              :lexeme :zi,
              :polarity :Affirmative,
@@ -1154,8 +1173,8 @@
     }
     {:label "tsamakko-VConjBCVCAffJuss-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1172,8 +1191,8 @@
     }
     {:label "tsamakko-VConjBCVCNegFuture-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
              :pos :Verb,
@@ -1190,8 +1209,8 @@
     }
     {:label "tsamakko-VConjBCVCNegJuss-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
              :pos :Verb,
@@ -1208,8 +1227,8 @@
     }
     {:label "tsamakko-VConjBCVCNegNonPast-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
              :pos :Verb,
@@ -1226,8 +1245,8 @@
     }
     {:label "tsamakko-VConjBCVCNegPast-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Negative,
              :pos :Verb,
@@ -1244,8 +1263,8 @@
     }
     {:label "tsamakko-VConjBCVCSubFuture-zi"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :polarity :Subordinate,
              :pos :Verb,
@@ -1262,8 +1281,8 @@
     }
     {:label "tsamakko-VConjBCVCVCAffAorist-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1280,8 +1299,8 @@
     }
     {:label "tsamakko-VConjBCVCVCAffConsecutive-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1298,8 +1317,8 @@
     }
     {:label "tsamakko-VConjBCVCVCAffFuture-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1316,8 +1335,8 @@
     }
     {:label "tsamakko-VConjBCVCVCAffImperf-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1334,8 +1353,8 @@
     }
     {:label "tsamakko-VConjBCVCVCAffImprtv-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :gender :Common,
              :lexeme :abun,
              :polarity :Affirmative,
@@ -1348,8 +1367,8 @@
     }
     {:label "tsamakko-VConjBCVCVCAffJuss-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1366,8 +1385,8 @@
     }
     {:label "tsamakko-VConjBCVCVCNegFuture-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
              :pos :Verb,
@@ -1384,8 +1403,8 @@
     }
     {:label "tsamakko-VConjBCVCVCNegJuss-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
              :pos :Verb,
@@ -1402,8 +1421,8 @@
     }
     {:label "tsamakko-VConjBCVCVCNegNonPast-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
              :pos :Verb,
@@ -1420,8 +1439,8 @@
     }
     {:label "tsamakko-VConjBCVCVCNegPast-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Negative,
              :pos :Verb,
@@ -1438,8 +1457,8 @@
     }
     {:label "tsamakko-VConjBCVCVCSubFuture-abun"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :abun,
              :polarity :Subordinate,
              :pos :Verb,
@@ -1456,8 +1475,8 @@
     }
     {:label "tsamakko-VConjBCVVCAffAorist-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1474,8 +1493,8 @@
     }
     {:label "tsamakko-VConjBCVVCAffConsecutive-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1492,8 +1511,8 @@
     }
     {:label "tsamakko-VConjBCVVCAffFuture-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1510,8 +1529,8 @@
     }
     {:label "tsamakko-VConjBCVVCAffImperf-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1528,8 +1547,8 @@
     }
     {:label "tsamakko-VConjBCVVCAffImprtv-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :gender :Common,
              :lexeme :bod,
              :polarity :Affirmative,
@@ -1542,8 +1561,8 @@
     }
     {:label "tsamakko-VConjBCVVCAffJuss-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Affirmative,
              :pos :Verb,
@@ -1560,8 +1579,8 @@
     }
     {:label "tsamakko-VConjBCVVCNegFuture-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
              :pos :Verb,
@@ -1578,8 +1597,8 @@
     }
     {:label "tsamakko-VConjBCVVCNegJuss-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
              :pos :Verb,
@@ -1596,8 +1615,8 @@
     }
     {:label "tsamakko-VConjBCVVCNegNonPast-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
              :pos :Verb,
@@ -1614,8 +1633,8 @@
     }
     {:label "tsamakko-VConjBCVVCNegPast-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Negative,
              :pos :Verb,
@@ -1632,8 +1651,8 @@
     }
     {:label "tsamakko-VConjBCVVCSubFuture-bod"
     :note "Sava2005 pp. 166-170"
-    :common {:vmorphClass :Finite
-:conjClass :ConjB,
+    :pdgmType :Finite
+    :common {:conjClass :ConjB,
              :lexeme :bod,
              :polarity :Subordinate,
              :pos :Verb,
@@ -1650,10 +1669,12 @@
     }
     {:label "tsamakko-VConjBConsecutiveConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-        :common {:conjClass :ConjB,
+    :pdgmType :ConjA_ConjBComparison
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :pos :Verb,
-             :tam :Consecutive}
+             :tam :Consecutive,
+             :morphClass :ConjA_ConjBComparison}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "zíʔ-ó"],
             [:Singular :Person2 :Common "zíʔ-óy"],
@@ -1665,19 +1686,25 @@
     }
     {:label "tsamakko-VConjBImprtvConjA-conjBComparison"
     :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
-        :common {:conjClass :ConjB,
+    :pdgmType :ConjA_ConjBComparison
+    :common {:conjClass :ConjB,
              :lexeme :zi,
              :gender :Common,
              :person :Person2,
              :pos :Verb,
-             :tam :Imperative}
+             :tam :Imperative,
+             :morphClass :ConjA_ConjBComparison}
     :terms [[:number :token],
             [:Singular "ziʔ-á"],
             [:Plural "ziʔ-inɗá"]]
     }
+]
+:muterms [
     {:label "tsamakko-PDefMarker"
     :note "Sava2005 Table 26"
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PRODEFMARKER,
+             :pos :Pronoun,
              :proClass :DefMarker}
     :terms [[:defMarker :number :gender :token],
             [:SsaClass :Singular :Masc "kosa ~ kossa"],
@@ -1686,13 +1713,15 @@
             [:SseClass :Singular :Masc "kosse"],
             [:SseClass :Singular :Fem "tesse"],
             [:SseClass :Plural :Common "kesse"],
-            [:AClass :Singular :Masc "koʔa"],
-            [:AClass :Singular :Fem "teʔa"],
-            [:AClass :Plural :Common "keʔa"]]
+            [:aClass :Singular :Masc "koʔa"],
+            [:aClass :Singular :Fem "teʔa"],
+            [:aClass :Plural :Common "keʔa"]]
     }
     {:label "tsamakko-PDem"
     :note "Sava2005 Table 27"
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PRODEM,
+             :pos :Pronoun,
              :proClass :Demonstrative}
     :terms [[:deixis :number :gender :token],
             [:Distal :Singular :Masc "kotta"],
@@ -1708,7 +1737,9 @@
     }
     {:label "tsamakko-PInd"
     :note "Pdgm = Sava2005 tables 19 and 25. Note also Table 22:Haplology in 1Pl dative pronoun:1Pl regular form is ʔine;cliticisation of =nnu gives *ʔine=nnu;reduction gives ʔi=nnu. Table 23 Syllabification of 1Sg,2SgM,and 2SgF dative pronouns:1sg *ʔee=nnu goes_to *ʔeen.nu goes_to ʔin.nu;2sg m *koo=nnu goes_to *koon.nu goes_to kun.nu;2sg f *kee=nnu goes_to *keen.nu goes_to kin.nu. Table 24:Syllabification of 1sg,2SgM,and 2SgF directive pronouns:1sg ʔee=ma goes_to ʔee.ma;2sg m koo=ma goes_to koo.ma;2sg f kee=ma goes_to kee.ma."
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PROIND,
+             :pos :Pronoun,
              :proClass :Independent}
     :terms [[:case :number :person :gender :token],
             [:Comitative :Singular :Person1 :Common "ʔee=ya"],
@@ -1770,7 +1801,9 @@
     }
     {:label "tsamakko-PInterrDiff"
     :note "Sava2005 Tables 29,30,31. interrGen = ‘whose?’;interrWh = ‘which?’;diff = ‘other’"
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PROINTERR,
+             :pos :Pronoun,
              :proClass :InterrDiff}
     :terms [[:category :number :gender :token],
             [:Diff :Singular :Masc "kuɓa"],
@@ -1785,7 +1818,9 @@
     }
     {:label "tsamakko-PLoc"
     :note "Sava2005 Table 32"
-        :common {:person :Person3,
+    :pdgmType :NA
+    :common {:morpheme :PROLOC,
+             :person :Person3,
              :pos :Pronoun,
              :proClass :LocativePro}
     :terms [[:case :number :gender :token],
@@ -1804,7 +1839,9 @@
     }
     {:label "tsamakko-PPossInd"
     :note "Sava2005 Table"
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PROPOSSIND,
+             :pos :Pronoun,
              :proClass :PossInd}
     :terms [[:genderHead :numHead :number :person :gender :token],
             [:HeadCommon :HeadPlural :Singular :Person1 :Common "kaayu"],
@@ -1834,7 +1871,9 @@
     }
     {:label "tsamakko-PPossSuff"
     :note "Sava2005 Table 21"
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PROPOSSSUFF,
+             :pos :Pronoun,
              :proClass :PossSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-aayu"],
@@ -1848,7 +1887,9 @@
     }
     {:label "tsamakko-PProParticle"
     :note "Sava2005 Table 20"
-        :common {:pos :Pronoun,
+    :pdgmType :NA
+    :common {:morpheme :PROPARTICLE,
+             :pos :Pronoun,
              :proClass :ProParticle}
     :terms [[:number :gender :token],
             [:Singular :Masc "ko / ku"],
@@ -1857,8 +1898,10 @@
     }
     {:label "tsamakko-VDervStemFormation"
     :note "Sava2005 Table 44. Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om."
-        :common {:vmorphClass :DervStemFormation
-             :pos :Verb}
+    :pdgmType :DervStemFormation
+    :common {:morpheme :DERVSTEM,
+             :pos :Verb,
+             :morphClass :DervStemFormation}
     :terms [[:derivedClass :derivedStem :token],
             [:Normal :Causative1 "-as"],
             [:Normal :Causative2 "-is"],
@@ -1881,8 +1924,10 @@
     }
     {:label "tsamakko-VProSuff"
     :note "Sava2005 Table 37"
-        :common {:vmorphClass :ProSuff
-             :pos :Verb}
+    :pdgmType :ProSuff
+    :common {:morpheme :PROSUFF,
+             :pos :Verb,
+             :morphClass :ProSuff}
     :terms [[:suffixSet :number :person :gender :token],
             [:SuffSet1 :Singular :Person1 :Common "-V"],
             [:SuffSet1 :Singular :Person2 :Common "-tV"],
@@ -1922,8 +1967,10 @@
     }
     {:label "tsamakko-VSubjMarkers"
     :note "Sava2005 Table 43"
-        :common {:vmorphClass :SubjMarkers
-             :pos :Verb}
+    :pdgmType :SubjMarkers
+    :common {:morpheme :SUBJMARKERS,
+             :pos :Verb,
+             :morphClass :SubjMarkers}
     :terms [[:conjClass :polarity :suffixSet :tam :token],
             [:Common :Common :SuffSet1 :Jussive "-(t/n)-á"],
             [:Common :Common :SuffSet1 :Jussive "⊤"],
@@ -1948,8 +1995,10 @@
     }
     {:label "tsamakko-VTenseSuffSets"
     :note "Sava2005 Tables 38-42. Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp. 149f. See Sava,pp. 158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative."
-        :common {:vmorphClass :TenseSuffSets
-             :pos :Verb}
+    :pdgmType :TenseSuffSets
+    :common {:morpheme :TENSESUFFSETS,
+             :pos :Verb,
+             :morphClass :TenseSuffSets}
     :terms [[:conjClass :polarity :suffixSet :tam :number :person :gender :token],
             [:Common :Affirmative :SuffSet1 :Jussive :Singular :Person1 :Common "⊤"],
             [:Common :Affirmative :SuffSet1 :Jussive :Singular :Person2 :Common "_NULL"],
