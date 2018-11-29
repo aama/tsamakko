@@ -5,8 +5,7 @@
  :datasource "Sava2005"
  :geodemoURL "http://www.ethnologue.com/language/tsb"
  :geodemoTXT "Varieties and subdialects of Tsamakko are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake Chamo'."
- :schemata {:lexeme [:abun  :bod :kais :ooy :qaba :ug :zi :zoq-am],
- :case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
+ :schemata { :case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
  :category [:Diff :InterrGen :InterrWh],
  :conjClass [:Common :ConjA :ConjB],
  :defMarker [:AClass :SsaClass :SseClass],
@@ -30,14 +29,16 @@
           :synsemClass [:case :category :defMarker :deixis :derivedClass :derivedStem :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :suffixSet :stemShape],
           :otherClass []}
- :lexemes{:abun {:lemma "ʔabun-", :gloss "rock", :conjClass :ConjB, :pos :Verb},
-          :bod {:lemma "bood-", :gloss "dig", :conjClass :ConjB, :pos :Verb},
-          :kais {:lemma "kaʔ-is-", :gloss "make sb. stand up", :conjClass :ConjA, :pos :Verb},
-          :ooy {:lemma "ʔooy-", :gloss "cry", :conjClass :ConjA},
-          :qaba {:lemma "q’abaʔ -", :gloss "hear", :conjClass :ConjA, :pos :Verb},
-          :ug {:lemma "ʕug", :gloss "drink", :conjClass :ConjA, :pos :Verb},
-          :zi {:lemma "žíʔ", :gloss "eat", :conjClass :ConjB, :pos :Verb},
-          :zoq-am {:lemma "žoq’-am-", :gloss "be beaten", :conjClass :ConjB, :pos :Verb}}
+ :lexemes {
+:abun   {:pos :Verb, :lemma "ʔabun-", :gloss "rock", :conjClass :ConjB},
+:bod   {:pos :Verb, :lemma "bood-", :gloss "dig", :conjClass :ConjB},
+:kais   {:pos :Verb, :lemma "kaʔ-is-", :gloss "make sb. stand up", :conjClass :ConjA},
+:ooy   {:pos :Verb, :lemma "ʔooy-", :gloss "cry", :conjClass :ConjA},
+:qaba   {:pos :Verb, :lemma "q’abaʔ -", :gloss "hear", :conjClass :ConjA},
+:ug   {:pos :Verb, :lemma "ʕug", :gloss "drink", :conjClass :ConjA},
+:zi   {:pos :Verb, :lemma "žíʔ", :gloss "eat", :conjClass :ConjB},
+:zoq-am   {:pos :Verb, :lemma "žoq’-am-", :gloss "be beaten", :conjClass :ConjB},
+}
  :termclusters [
                 {:label "tsamakko-VConjAAoristConjA-conjBComparison"
                  :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
