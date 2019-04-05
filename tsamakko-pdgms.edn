@@ -2,46 +2,46 @@
  :lang :tsamakko
  :subfamily "East Cushitic Yaaku-Dullay"
  :sgpref "tsm"
- :datasource "Sava2005"
+ :datasource "Sava2005; abbrev. Sa05"
  :geodemoURL "http://www.ethnologue.com/language/tsb"
  :geodemoTXT "Varieties and subdialects of Tsamakko are spoken in Ethiopia, 'Southern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake Chamo'."
  :schemata { :case [:Comitative :Dative :Directive :Locative :Obj_ka :Object :Subject],
- :category [:Diff :InterrGen :InterrWh],
- :conjClass [:Common :ConjA :ConjB],
- :defMarker [:AClass :SsaClass :SseClass],
- :deixis [:Distal :Distal2 :Proximal :Proximal2],
- :derivedClass [:Normal :OAssim :Verbaliser],
- :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
- :gender [:Common :Fem :Masc],
- :genderHead [:HeadCommon :HeadFem :HeadMasc],
- :numHead [:HeadPlural :HeadSingular],
- :number [:Common :Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :polarity [:Affirmative :Common :Negative :Subordinate],
- :pos [:Pronoun :Verb],
- :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
- :stemShape [:CVC :CVCVC :CVC_VC :CVVC],
- :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
- :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past],
- :vmorphClass [:ConjA_ConjBComparison :DervStemFormation :Finite :ProSuff :SubjMarkers :TenseSuffSets]
- }
+            :category [:Diff :InterrGen :InterrWh],
+            :conjClass [:Common :ConjA :ConjB],
+            :defMarker [:AClass :SsaClass :SseClass],
+            :deixis [:Distal :Distal2 :Proximal :Proximal2],
+            :derivedClass [:Normal :OAssim :Verbaliser],
+            :derivedStem [:Causative1 :Causative2 :Generic :Inceptive :Middel :Passive],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Common :Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Common :Negative :Subordinate],
+            :pos [:Pronoun :Verb],
+            :proClass [:DefMarker :Demonstrative :Independent :InterrDiff :LocativePro :PossInd :PossSuff :ProParticle],
+            :stemShape [:CVC :CVCVC :CVC_VC :CVVC],
+            :suffixSet [:SuffSet1 :SuffSet2 :SuffSet3 :SuffSet4 :SuffSet5],
+            :tam [:Aorist :Consecutive :Future :Imperative :Imperfect :Jussive :NonPast :Past],
+            :vmorphClass [:ConjA_ConjBComparison :DervStemFormation :Finite :ProSuff :SubjMarkers :TenseSuffSets]
+            }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead],
           :synsemClass [:case :category :defMarker :deixis :derivedClass :derivedStem :polarity :pos :proClass :tamb],
           :inflClass [:conjClass :suffixSet :stemShape],
           :otherClass []}
  :lexemes {
-:abun   {:pos :Verb, :lemma "ʔabun-", :gloss "rock", :conjClass :ConjB},
-:bod   {:pos :Verb, :lemma "bood-", :gloss "dig", :conjClass :ConjB},
-:kais   {:pos :Verb, :lemma "kaʔ-is-", :gloss "make sb. stand up", :conjClass :ConjA},
-:ooy   {:pos :Verb, :lemma "ʔooy-", :gloss "cry", :conjClass :ConjA},
-:qaba   {:pos :Verb, :lemma "q’abaʔ -", :gloss "hear", :conjClass :ConjA},
-:ug   {:pos :Verb, :lemma "ʕug", :gloss "drink", :conjClass :ConjA},
-:zi   {:pos :Verb, :lemma "žíʔ", :gloss "eat", :conjClass :ConjB},
-:zoq-am   {:pos :Verb, :lemma "žoq’-am-", :gloss "be beaten", :conjClass :ConjB},
-}
+           :abun   {:pos :Verb, :lemma "ʔabun-", :gloss "rock", :conjClass :ConjB},
+           :bod   {:pos :Verb, :lemma "bood-", :gloss "dig", :conjClass :ConjB},
+           :kais   {:pos :Verb, :lemma "kaʔ-is-", :gloss "make sb. stand up", :conjClass :ConjA},
+           :ooy   {:pos :Verb, :lemma "ʔooy-", :gloss "cry", :conjClass :ConjA},
+           :qaba   {:pos :Verb, :lemma "q’abaʔ -", :gloss "hear", :conjClass :ConjA},
+           :ug   {:pos :Verb, :lemma "ʕug", :gloss "drink", :conjClass :ConjA},
+           :zi   {:pos :Verb, :lemma "žíʔ", :gloss "eat", :conjClass :ConjB},
+           :zoq-am   {:pos :Verb, :lemma "žoq’-am-", :gloss "be beaten", :conjClass :ConjB},
+           }
  :termclusters [
                 {:label "tsamakko-VConjAAoristConjA-conjBComparison"
-                 :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
+                 :note "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
                  :common {:conjClass :ConjA,
                           :lexeme :ug,
                           :pos :Verb,
@@ -57,7 +57,7 @@
                          [:Plural :Person3 :Common "ʕúg-e"]]
                  }
                 {:label "tsamakko-VConjACVC-VCAffAorist-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -75,7 +75,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-e"]]
                  }
                 {:label "tsamakko-VConjACVC-VCAffConsecutive-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -93,7 +93,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-ínki"]]
                  }
                 {:label "tsamakko-VConjACVC-VCAffFuture-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -111,7 +111,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-nánki"]]
                  }
                 {:label "tsamakko-VConjACVC-VCAffImperf-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -129,7 +129,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-ánki"]]
                  }
                 {:label "tsamakko-VConjACVC-VCAffImprtv-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :gender :Common,
@@ -143,7 +143,7 @@
                          [:Plural :Person3 "káʔ-ís-á"]]
                  }
                 {:label "tsamakko-VConjACVC-VCAffJuss-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -161,7 +161,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-é"]]
                  }
                 {:label "tsamakko-VConjACVC-VCNegFuture-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -179,7 +179,7 @@
                          [:Plural :Person3 :Common "káʔ-is-ní"]]
                  }
                 {:label "tsamakko-VConjACVC-VCNegJuss-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -197,7 +197,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) káʔ-ís-únki"]]
                  }
                 {:label "tsamakko-VConjACVC-VCNegNonPast-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -215,7 +215,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-é"]]
                  }
                 {:label "tsamakko-VConjACVC-VCNegPast-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -233,7 +233,7 @@
                          [:Plural :Person3 :Common "káʔʔ-ís-ánkú"]]
                  }
                 {:label "tsamakko-VConjACVC-VCSubFuture-kais"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :kais,
@@ -251,7 +251,7 @@
                          [:Plural :Person3 :Common "káʔ-ís-né"]]
                  }
                 {:label "tsamakko-VConjACVCAffAorist-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -269,7 +269,7 @@
                          [:Plural :Person3 :Common "ʕúg-e"]]
                  }
                 {:label "tsamakko-VConjACVCAffConsecutive-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -287,7 +287,7 @@
                          [:Plural :Person3 :Common "ʕúg-ínki"]]
                  }
                 {:label "tsamakko-VConjACVCAffFuture-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -305,7 +305,7 @@
                          [:Plural :Person3 :Common "ʕúg-nánki"]]
                  }
                 {:label "tsamakko-VConjACVCAffImperf-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -323,7 +323,7 @@
                          [:Plural :Person3 :Common "ʕúg-ánki"]]
                  }
                 {:label "tsamakko-VConjACVCAffImprtv-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :gender :Common,
@@ -337,7 +337,7 @@
                          [:Plural :Person3 "ʕug-á"]]
                  }
                 {:label "tsamakko-VConjACVCAffJuss-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -355,7 +355,7 @@
                          [:Plural :Person3 :Common "ʕug-é"]]
                  }
                 {:label "tsamakko-VConjACVCNegFuture-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -373,7 +373,7 @@
                          [:Plural :Person3 :Common "ʕug-né"]]
                  }
                 {:label "tsamakko-VConjACVCNegJuss-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -391,7 +391,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) ʕúg-únkí"]]
                  }
                 {:label "tsamakko-VConjACVCNegNonPast-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -409,7 +409,7 @@
                          [:Plural :Person3 :Common "ʕúg-é"]]
                  }
                 {:label "tsamakko-VConjACVCNegPast-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -427,7 +427,7 @@
                          [:Plural :Person3 :Common "ʕúgg-ánkú"]]
                  }
                 {:label "tsamakko-VConjACVCSubFuture-ug"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ug,
@@ -445,7 +445,7 @@
                          [:Plural :Person3 :Common "ʕúg-né"]]
                  }
                 {:label "tsamakko-VConjACVCVCAffAorist-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -463,7 +463,7 @@
                          [:Plural :Person3 :Common "q’ábaʔ-e"]]
                  }
                 {:label "tsamakko-VConjACVCVCAffConsecutive-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -481,7 +481,7 @@
                          [:Plural :Person3 :Common "q’ábáʔ-ónki"]]
                  }
                 {:label "tsamakko-VConjACVCVCAffFuture-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -499,7 +499,7 @@
                          [:Plural :Person3 :Common "q’ábaʔ-nánki"]]
                  }
                 {:label "tsamakko-VConjACVCVCAffImperf-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -517,7 +517,7 @@
                          [:Plural :Person3 :Common "q’ábaʔ-ánki"]]
                  }
                 {:label "tsamakko-VConjACVCVCAffImprtv-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :gender :Common,
@@ -531,7 +531,7 @@
                          [:Plural :Person3 "q’ábáʔ-á"]]
                  }
                 {:label "tsamakko-VConjACVCVCAffJuss-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -549,7 +549,7 @@
                          [:Plural :Person3 :Common "q’abaʔ-é"]]
                  }
                 {:label "tsamakko-VConjACVCVCNegFuture-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -567,7 +567,7 @@
                          [:Plural :Person3 :Common "q’abaʔ-ní"]]
                  }
                 {:label "tsamakko-VConjACVCVCNegJuss-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -585,7 +585,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) q’ábáʔ-únki"]]
                  }
                 {:label "tsamakko-VConjACVCVCNegNonPast-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -603,7 +603,7 @@
                          [:Plural :Person3 :Common "q’ábáʔ-é"]]
                  }
                 {:label "tsamakko-VConjACVCVCNegPast-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -621,7 +621,7 @@
                          [:Plural :Person3 :Common "q’ábáʔʔ-ánkú"]]
                  }
                 {:label "tsamakko-VConjACVCVCSubFuture-qaba"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :qaba,
@@ -639,7 +639,7 @@
                          [:Plural :Person3 :Common "q’ábaʔ-né"]]
                  }
                 {:label "tsamakko-VConjACVVCAffAorist-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -657,7 +657,7 @@
                          [:Plural :Person3 :Common "ʔóóy-e"]]
                  }
                 {:label "tsamakko-VConjACVVCAffConsecutive-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -675,7 +675,7 @@
                          [:Plural :Person3 :Common "ʔóóy-nki"]]
                  }
                 {:label "tsamakko-VConjACVVCAffFuture-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -693,7 +693,7 @@
                          [:Plural :Person3 :Common "ʔóóy-nánki"]]
                  }
                 {:label "tsamakko-VConjACVVCAffImperf-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -711,7 +711,7 @@
                          [:Plural :Person3 :Common "ʔóóy-ánki"]]
                  }
                 {:label "tsamakko-VConjACVVCAffImprtv-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :gender :Common,
@@ -725,7 +725,7 @@
                          [:Plural :Person3 "ʔóóy-á"]]
                  }
                 {:label "tsamakko-VConjACVVCAffJuss-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -743,7 +743,7 @@
                          [:Plural :Person3 :Common "ʔóóy-é"]]
                  }
                 {:label "tsamakko-VConjACVVCNegFuture-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -761,7 +761,7 @@
                          [:Plural :Person3 :Common "ʔóóy-né"]]
                  }
                 {:label "tsamakko-VConjACVVCNegJuss-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -779,7 +779,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) óóy-únkí"]]
                  }
                 {:label "tsamakko-VConjACVVCNegNonPast-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -797,7 +797,7 @@
                          [:Plural :Person3 :Common "ʔóóy-é"]]
                  }
                 {:label "tsamakko-VConjACVVCNegPast-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -815,7 +815,7 @@
                          [:Plural :Person3 :Common "ʔóóyy-ánkú"]]
                  }
                 {:label "tsamakko-VConjACVVCSubFuture-ooy"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjA,
                           :lexeme :ooy,
@@ -833,7 +833,7 @@
                          [:Plural :Person3 :Common "ʔóóy-né"]]
                  }
                 {:label "tsamakko-VConjAConsecutiveConjA-conjBComparison"
-                 :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
+                 :note "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
                  :common {:conjClass :ConjA,
                           :lexeme :ug,
                           :pos :Verb,
@@ -849,7 +849,7 @@
                          [:Plural :Person3 :Common "ʕúg-ínki"]]
                  }
                 {:label "tsamakko-VConjAImprtvConjA-conjBComparison"
-                 :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
+                 :note "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
                  :common {:conjClass :ConjA,
                           :gender :Common,
                           :lexeme :ug,
@@ -862,7 +862,7 @@
                          [:Plural "ʕug-á"]]
                  }
                 {:label "tsamakko-VConjBAoristConjA-conjBComparison"
-                 :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
+                 :note "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
                  :common {:conjClass :ConjB,
                           :lexeme :zi,
                           :pos :Verb,
@@ -878,7 +878,7 @@
                          [:Plural :Person3 :Common "zíʔ-e"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCAffAorist-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -896,7 +896,7 @@
                          [:Plural :Person3 :Common "žóq-ám-e"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCAffConsecutive-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -914,7 +914,7 @@
                          [:Plural :Person3 :Common "žóq’-ám-ónki"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCAffFuture-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -932,7 +932,7 @@
                          [:Plural :Person3 :Common "žóq-ám-nánki"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCAffImperf-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -950,7 +950,7 @@
                          [:Plural :Person3 :Common "žóq-ám-ánki"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCAffImprtv-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :gender :Common,
@@ -964,7 +964,7 @@
                          [:Plural :Person3 "žóq’-ám-ínɗá"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCAffJuss-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -982,7 +982,7 @@
                          [:Plural :Person3 :Common "žoq’-am-é"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCNegFuture-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -1000,7 +1000,7 @@
                          [:Plural :Person3 :Common "žoq’-am-ní"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCNegJuss-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -1018,7 +1018,7 @@
                          [:Plural :Person3 :Common "žóq’-ám-únki"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCNegNonPast-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -1036,7 +1036,7 @@
                          [:Plural :Person3 :Common "žóq’-ám-é"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCNegPast-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -1054,7 +1054,7 @@
                          [:Plural :Person3 :Common "žóq’-ám-ánkú"]]
                  }
                 {:label "tsamakko-VConjBCVC-VCSubFuture-zoq-am"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zoq-am,
@@ -1072,7 +1072,7 @@
                          [:Plural :Person3 :Common "žóq-ám-né"]]
                  }
                 {:label "tsamakko-VConjBCVCAffAorist-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1090,7 +1090,7 @@
                          [:Plural :Person3 :Common "žíʔ-e"]]
                  }
                 {:label "tsamakko-VConjBCVCAffConsecutive-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1108,7 +1108,7 @@
                          [:Plural :Person3 :Common "žíʔ-ónki"]]
                  }
                 {:label "tsamakko-VConjBCVCAffFuture-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1126,7 +1126,7 @@
                          [:Plural :Person3 :Common "žíʔ-nánki"]]
                  }
                 {:label "tsamakko-VConjBCVCAffImperf-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1144,7 +1144,7 @@
                          [:Plural :Person3 :Common "žíʔ-anki"]]
                  }
                 {:label "tsamakko-VConjBCVCAffImprtv-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :gender :Common,
@@ -1158,7 +1158,7 @@
                          [:Plural :Person3 "žíʔ-ínɗá"]]
                  }
                 {:label "tsamakko-VConjBCVCAffJuss-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1176,7 +1176,7 @@
                          [:Plural :Person3 :Common "žíʔ-é"]]
                  }
                 {:label "tsamakko-VConjBCVCNegFuture-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1194,7 +1194,7 @@
                          [:Plural :Person3 :Common "žíʔ-né"]]
                  }
                 {:label "tsamakko-VConjBCVCNegJuss-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1212,7 +1212,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) žíʔ-únkí"]]
                  }
                 {:label "tsamakko-VConjBCVCNegNonPast-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1230,7 +1230,7 @@
                          [:Plural :Person3 :Common "žíʔ-é"]]
                  }
                 {:label "tsamakko-VConjBCVCNegPast-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1248,7 +1248,7 @@
                          [:Plural :Person3 :Common "žíʔʔ-ánkú"]]
                  }
                 {:label "tsamakko-VConjBCVCSubFuture-zi"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :zi,
@@ -1266,7 +1266,7 @@
                          [:Plural :Person3 :Common "žíʔ-né"]]
                  }
                 {:label "tsamakko-VConjBCVCVCAffAorist-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1284,7 +1284,7 @@
                          [:Plural :Person3 :Common "ʔábún-e"]]
                  }
                 {:label "tsamakko-VConjBCVCVCAffConsecutive-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1302,7 +1302,7 @@
                          [:Plural :Person3 :Common "ʔábún-ónki"]]
                  }
                 {:label "tsamakko-VConjBCVCVCAffFuture-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1320,7 +1320,7 @@
                          [:Plural :Person3 :Common "ʔábún-nánki"]]
                  }
                 {:label "tsamakko-VConjBCVCVCAffImperf-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1338,7 +1338,7 @@
                          [:Plural :Person3 :Common "ʔábún-ánki"]]
                  }
                 {:label "tsamakko-VConjBCVCVCAffImprtv-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :gender :Common,
@@ -1352,7 +1352,7 @@
                          [:Plural :Person3 "ʔábún-inɗá"]]
                  }
                 {:label "tsamakko-VConjBCVCVCAffJuss-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1370,7 +1370,7 @@
                          [:Plural :Person3 :Common "ʔábún-é"]]
                  }
                 {:label "tsamakko-VConjBCVCVCNegFuture-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1388,7 +1388,7 @@
                          [:Plural :Person3 :Common "ʔábún-ní"]]
                  }
                 {:label "tsamakko-VConjBCVCVCNegJuss-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1406,7 +1406,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) ʔábún-únki"]]
                  }
                 {:label "tsamakko-VConjBCVCVCNegNonPast-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1424,7 +1424,7 @@
                          [:Plural :Person3 :Common "ʔábún-é"]]
                  }
                 {:label "tsamakko-VConjBCVCVCNegPast-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1442,7 +1442,7 @@
                          [:Plural :Person3 :Common "ʔábúnn-ánkú"]]
                  }
                 {:label "tsamakko-VConjBCVCVCSubFuture-abun"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :abun,
@@ -1460,7 +1460,7 @@
                          [:Plural :Person3 :Common "ʔábún-né"]]
                  }
                 {:label "tsamakko-VConjBCVVCAffAorist-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1478,7 +1478,7 @@
                          [:Plural :Person3 :Common "bóód-e"]]
                  }
                 {:label "tsamakko-VConjBCVVCAffConsecutive-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1496,7 +1496,7 @@
                          [:Plural :Person3 :Common "bóód-ónki"]]
                  }
                 {:label "tsamakko-VConjBCVVCAffFuture-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1514,7 +1514,7 @@
                          [:Plural :Person3 :Common "bóód-nánki"]]
                  }
                 {:label "tsamakko-VConjBCVVCAffImperf-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1532,7 +1532,7 @@
                          [:Plural :Person3 :Common "bóód-anki"]]
                  }
                 {:label "tsamakko-VConjBCVVCAffImprtv-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :gender :Common,
@@ -1546,7 +1546,7 @@
                          [:Plural :Person3 "bóód-ínɗa"]]
                  }
                 {:label "tsamakko-VConjBCVVCAffJuss-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1564,7 +1564,7 @@
                          [:Plural :Person3 :Common "bóód-é"]]
                  }
                 {:label "tsamakko-VConjBCVVCNegFuture-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1582,7 +1582,7 @@
                          [:Plural :Person3 :Common "bóód-né"]]
                  }
                 {:label "tsamakko-VConjBCVVCNegJuss-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1600,7 +1600,7 @@
                          [:Plural :Person3 :Common "(ʔínnu) bóód-únkí"]]
                  }
                 {:label "tsamakko-VConjBCVVCNegNonPast-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1618,7 +1618,7 @@
                          [:Plural :Person3 :Common "bóód-é"]]
                  }
                 {:label "tsamakko-VConjBCVVCNegPast-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1636,7 +1636,7 @@
                          [:Plural :Person3 :Common "bóódd-ánkú"]]
                  }
                 {:label "tsamakko-VConjBCVVCSubFuture-bod"
-                 :note "Sava2005 pp. 166-170"
+                 :note "Sa05pp.166-170"
                  :common {:vmorphClass :Finite,
                           :conjClass :ConjB,
                           :lexeme :bod,
@@ -1654,7 +1654,7 @@
                          [:Plural :Person3 :Common "bóód-né"]]
                  }
                 {:label "tsamakko-VConjBConsecutiveConjA-conjBComparison"
-                 :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
+                 :note "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
                  :common {:conjClass :ConjB,
                           :lexeme :zi,
                           :pos :Verb,
@@ -1670,7 +1670,7 @@
                          [:Plural :Person3 :Common "zíʔ-ónki"]]
                  }
                 {:label "tsamakko-VConjBImprtvConjA-conjBComparison"
-                 :note "Sava2005 Tables 34,35,and 36. Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
+                 :note "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms."
                  :common {:conjClass :ConjB,
                           :lexeme :zi,
                           :gender :Common,
@@ -1683,7 +1683,7 @@
                          [:Plural "ziʔ-inɗá"]]
                  }
                 {:label "tsamakko-PDefMarker"
-                 :note "Sava2005 Table 26"
+                 :note "Sa05t26"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DefMarker}
                  :terms [[:defMarker :number :gender :token],
@@ -1698,7 +1698,7 @@
                          [:aClass :Plural :Common "keʔa"]]
                  }
                 {:label "tsamakko-PDem"
-                 :note "Sava2005 Table 27"
+                 :note "Sa05t27"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:deixis :number :gender :token],
@@ -1714,7 +1714,7 @@
                          [:Proximal2 :Plural :Common "kisi"]]
                  }
                 {:label "tsamakko-PInd"
-                 :note "Pdgm = Sava2005 tables 19 and 25. Note also Table 22:Haplology in 1Pl dative pronoun:1Pl regular form is ʔine;cliticisation of =nnu gives *ʔine=nnu;reduction gives ʔi=nnu. Table 23 Syllabification of 1Sg,2SgM,and 2SgF dative pronouns:1sg *ʔee=nnu goes_to *ʔeen.nu goes_to ʔin.nu;2sg m *koo=nnu goes_to *koon.nu goes_to kun.nu;2sg f *kee=nnu goes_to *keen.nu goes_to kin.nu. Table 24:Syllabification of 1sg,2SgM,and 2SgF directive pronouns:1sg ʔee=ma goes_to ʔee.ma;2sg m koo=ma goes_to koo.ma;2sg f kee=ma goes_to kee.ma."
+                 :note "Sa05t19;25 ::  Note also Table 22:Haplology in 1Pl dative pronoun:1Pl regular form is ʔine;cliticisation of =nnu gives *ʔine=nnu;reduction gives ʔi=nnu. Table 23 Syllabification of 1Sg,2SgM,and 2SgF dative pronouns:1sg *ʔee=nnu goes_to *ʔeen.nu goes_to ʔin.nu;2sg m *koo=nnu goes_to *koon.nu goes_to kun.nu;2sg f *kee=nnu goes_to *keen.nu goes_to kin.nu. Table 24:Syllabification of 1sg,2SgM,and 2SgF directive pronouns:1sg ʔee=ma goes_to ʔee.ma;2sg m koo=ma goes_to koo.ma;2sg f kee=ma goes_to kee.ma."
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -1776,7 +1776,7 @@
                          [:Subject :Plural :Person3 :Common "ʔufunɗe"]]
                  }
                 {:label "tsamakko-PInterrDiff"
-                 :note "Sava2005 Tables 29,30,31. interrGen = ‘whose?’;interrWh = ‘which?’;diff = ‘other’"
+                 :note "Sa05t29;30;31 ::  interrGen = ‘whose?’;interrWh = ‘which?’;diff = ‘other’"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :InterrDiff}
                  :terms [[:category :number :gender :token],
@@ -1791,7 +1791,7 @@
                          [:InterrWh :Singular :Masc "kunɗa"]]
                  }
                 {:label "tsamakko-PLoc"
-                 :note "Sava2005 Table 32"
+                 :note "Sa05t32"
                  :common {             :person :Person3,
                           :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :LocativePro}
@@ -1810,7 +1810,7 @@
                          [:Locative :Plural :Common "na=ta"]]
                  }
                 {:label "tsamakko-PPossInd"
-                 :note "Sava2005 Table"
+                 :note "Sa05t"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossInd}
                  :terms [[:genderHead :numHead :number :person :gender :token],
@@ -1840,7 +1840,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "kuusunɗe"]]
                  }
                 {:label "tsamakko-PPossSuff"
-                 :note "Sava2005 Table 21"
+                 :note "Sa05t21"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossSuff}
                  :terms [[:number :person :gender :token],
@@ -1854,7 +1854,7 @@
                          [:Plural :Person3 :Common "-uusunɗe"]]
                  }
                 {:label "tsamakko-PProParticle"
-                 :note "Sava2005 Table 20"
+                 :note "Sa05t20"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ProParticle}
                  :terms [[:number :gender :token],
@@ -1863,7 +1863,7 @@
                          [:Plural :Common "te / ti"]]
                  }
                 {:label "tsamakko-VDervStemFormation"
-                 :note "Sava2005 Table 44. Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om."
+                 :note "Sa05t44 :: Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om."
                  :common {             :pos :Verb,
                           :vmorphClass :DervStemFormation}
                  :terms [[:derivedClass :derivedStem :token],
@@ -1887,7 +1887,7 @@
                          [:Verbaliser :Passive "⊤"]]
                  }
                 {:label "tsamakko-VProSuff"
-                 :note "Sava2005 Table 37"
+                 :note "Sa05t37"
                  :common {             :pos :Verb,
                           :vmorphClass :ProSuff}
                  :terms [[:suffixSet :number :person :gender :token],
@@ -1928,7 +1928,7 @@
                          [:SuffSet5 :Plural :Person3 :Common "-úmma"]]
                  }
                 {:label "tsamakko-VSubjMarkers"
-                 :note "Sava2005 Table 43"
+                 :note "Sa05t43"
                  :common {             :pos :Verb,
                           :vmorphClass :SubjMarkers}
                  :terms [[:conjClass :polarity :suffixSet :tam :token],
@@ -1954,7 +1954,7 @@
                          [:ConjB :Common :SuffSet2 :Consecutive "-ó(y~nki~nku)"]]
                  }
                 {:label "tsamakko-VTenseSuffSets"
-                 :note "Sava2005 Tables 38-42. Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp. 149f. See Sava,pp. 158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative."
+                 :note "Sa05t38-42 :: Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp.149f. See Sava,pp.158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative."
                  :common {             :pos :Verb,
                           :vmorphClass :TenseSuffSets}
                  :terms [[:conjClass :polarity :suffixSet :tam :number :person :gender :token],
