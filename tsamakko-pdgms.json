@@ -1,2389 +1,2625 @@
 {
   "lang": "tsamakko",
   "subfamily": "East Cushitic Yaaku-Dullay",
-  "sgpref": "tsm",
-  "datasource": "Sava2005; abbrev. Sa05",
+  "lgpref": "tsm",
+  "datasource": "Savà, Graziano. 2005. A grammar of Ts'amakko. Cushitic Language Studies 22. Köln: Rüdiger Köppe Verlag. [Sa05]",
+  "datasourceNotes": "",
   "geodemoURL": "http://www.ethnologue.com/language/tsb",
   "geodemoTXT": "Varieties and subdialects of Tsamakko are spoken in Ethiopia, ZZSouthern Nations, Nationalities, and Peoples’ region: Omo area, lowlands west of Lake ChamoZZ.",
   "schemata": {
-    "category": [
-      "Diff",
-      "InterrGen",
-      "InterrWh"
-    ],
-    "suffixSet": [
-      "SuffSet1",
-      "SuffSet2",
-      "SuffSet3",
-      "SuffSet4",
-      "SuffSet5"
-    ],
-    "numHead": [
-      "HeadPlural",
-      "HeadSingular"
-    ],
-    "person": [
-      "Person1",
-      "Person2",
-      "Person3"
-    ],
-    "stemShape": [
-      "CVC",
-      "CVCVC",
-      "CVC_VC",
-      "CVVC"
-    ],
-    "derivedStem": [
-      "Causative1",
-      "Causative2",
-      "Generic",
-      "Inceptive",
-      "Middel",
-      "Passive"
-    ],
-    "number": [
-      "Common",
-      "Plural",
-      "Singular"
-    ],
-    "vmorphClass": [
-      "ConjA_ConjBComparison",
-      "DervStemFormation",
-      "Finite",
-      "ProSuff",
-      "SubjMarkers",
-      "TenseSuffSets"
-    ],
-    "genderHead": [
-      "HeadCommon",
-      "HeadFem",
-      "HeadMasc"
-    ],
-    "defMarker": [
-      "AClass",
-      "SsaClass",
-      "SseClass"
-    ],
-    "pos": [
-      "Pronoun",
-      "Verb"
-    ],
-    "proClass": [
-      "DefMarker",
-      "Demonstrative",
-      "Independent",
-      "InterrDiff",
-      "LocativePro",
-      "PossInd",
-      "PossSuff",
-      "ProParticle"
-    ],
-    "conjClass": [
-      "Common",
-      "ConjA",
-      "ConjB"
-    ],
-    "case": [
-      "Comitative",
-      "Dative",
-      "Directive",
-      "Locative",
-      "Obj_ka",
-      "Object",
-      "Subject"
-    ],
-    "polarity": [
-      "Affirmative",
-      "Common",
-      "Negative",
-      "Subordinate"
-    ],
-    "tam": [
-      "Aorist",
-      "Consecutive",
-      "Future",
-      "Imperative",
-      "Imperfect",
-      "Jussive",
-      "NonPast",
-      "Past"
-    ],
-    "gender": [
-      "Common",
-      "Fem",
-      "Masc"
-    ],
-    "derivedClass": [
-      "Normal",
-      "OAssim",
-      "Verbaliser"
-    ],
-    "deixis": [
-      "Distal",
-      "Distal2",
-      "Proximal",
-      "Proximal2"
+  "case": [
+    "Comitative",
+    "Dative",
+    "Directive",
+    "Locative",
+    "Obj_ka",
+    "Object",
+    "Subject"
+  ],
+  "category": [
+    "Diff",
+    "InterrGen",
+    "InterrWh"
+  ],
+  "conjClass": [
+    "Common",
+    "ConjA",
+    "ConjB"
+  ],
+  "defMarker": [
+    "SsaClass",
+    "SseClass",
+    "aClass"
+  ],
+  "deixis": [
+    "Distal",
+    "Distal2",
+    "Proximal",
+    "Proximal2"
+  ],
+  "derivedClass": [
+    "Normal",
+    "OAssim",
+    "Verbaliser"
+  ],
+  "derivedStem": [
+    "Causative1",
+    "Causative2",
+    "Generic",
+    "Inceptive",
+    "Middel",
+    "Passive"
+  ],
+  "gender": [
+    "Common",
+    "Fem",
+    "Masc"
+  ],
+  "genderHead": [
+    "HeadCommon",
+    "HeadFem",
+    "HeadMasc"
+  ],
+  "lexeme": [
+    "abun",
+    "bod",
+    "kais",
+    "ooy",
+    "qaba",
+    "ug",
+    "zi",
+    "zoq-am"
+  ],
+  "morphClass": [
+    "ConjA_ConjBComparison",
+    "DervStemFormation",
+    "ProSuff",
+    "SubjMarkers",
+    "TenseSuffSets"
+  ],
+  "numHead": [
+    "HeadPlural",
+    "HeadSingular"
+  ],
+  "number": [
+    "Common",
+    "Plural",
+    "Singular"
+  ],
+  "person": [
+    "Person1",
+    "Person2",
+    "Person3"
+  ],
+  "polarity": [
+    "Affirmative",
+    "Common",
+    "Negative",
+    "Subordinate"
+  ],
+  "pos": [
+    "Pronoun",
+    "Verb"
+  ],
+  "proClass": [
+    "DefMarker",
+    "Demonstrative",
+    "Independent",
+    "InterrDiff",
+    "LocativePro",
+    "PossInd",
+    "PossSuff",
+    "ProParticle"
+  ],
+  "stemShape": [
+    "CVC",
+    "CVCVC",
+    "CVC_VC",
+    "CVVC"
+  ],
+  "suffixSet": [
+    "SuffSet1",
+    "SuffSet2",
+    "SuffSet3",
+    "SuffSet4",
+    "SuffSet5"
+  ],
+  "tam": [
+    "Aorist",
+    "Consecutive",
+    "Future",
+    "Imperative",
+    "Imperfect",
+    "Jussive",
+    "NonPast",
+    "Past"
+  ]
+},
+  "lexemes": {
+  "abun": {
+    "pos": "Verb",
+    "lemma": "ʔabun-",
+    "gloss": "rock",
+    "conjClass": "ConjB"
+  },
+  "bod": {
+    "pos": "Verb",
+    "lemma": "bood-",
+    "gloss": "dig",
+    "conjClass": "ConjB"
+  },
+  "kais": {
+    "pos": "Verb",
+    "lemma": "kaʔ-is-",
+    "gloss": "make sb. stand up",
+    "conjClass": "ConjA"
+  },
+  "ooy": {
+    "pos": "Verb",
+    "lemma": "ʔooy-",
+    "gloss": "cry",
+    "conjClass": "ConjA"
+  },
+  "qaba": {
+    "pos": "Verb",
+    "lemma": "q’abaʔ -",
+    "gloss": "hear",
+    "conjClass": "ConjA"
+  },
+  "ug": {
+    "pos": "Verb",
+    "lemma": "ʕug",
+    "gloss": "drink",
+    "conjClass": "ConjA"
+  },
+  "zi": {
+    "pos": "Verb",
+    "lemma": "žíʔ",
+    "gloss": "eat",
+    "conjClass": "ConjB"
+  },
+  "zoq-am": {
+    "pos": "Verb",
+    "lemma": "žoq’-am-",
+    "gloss": "be beaten",
+    "conjClass": "ConjB"
+  }
+},
+  "pdgmPropOrder": ["pos", "proClass", "morphClass", "conjClass", "stemShape", "lexeme", "tam", "polarity"],
+  "termclusters": [
+  {
+    "label": "tsm-PronounDefMarker",
+    "note": "Sa05t26",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "DefMarker"
+    },
+    "terms": [
+      ["defMarker" ,"number" ,"gender" ,"token"],
+      ["SsaClass" ,"Singular" ,"Masc" ,"kosa ~ kossa"],
+      ["SsaClass" ,"Singular" ,"Fem" ,"teas ~ tessa"],
+      ["SsaClass" ,"Plural" ,"Common" ,"kesa ~ kessa"],
+      ["SseClass" ,"Singular" ,"Masc" ,"kosse"],
+      ["SseClass" ,"Singular" ,"Fem" ,"tesse"],
+      ["SseClass" ,"Plural" ,"Common" ,"kesse"],
+      ["aClass" ,"Singular" ,"Masc" ,"koʔa"],
+      ["aClass" ,"Singular" ,"Fem" ,"teʔa"],
+      ["aClass" ,"Plural" ,"Common" ,"keʔa"]
     ]
   },
-  "lexemes": {
-    "abun": {
-      "pos": "Verb",
-      "lemma": "ʔabun-",
-      "gloss": "rock",
-      "conjClass": "ConjB"
+  {
+    "label": "tsm-PronounDemonstrative",
+    "note": "Sa05t27",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Demonstrative"
     },
-    "bod": {
-      "pos": "Verb",
-      "lemma": "bood-",
-      "gloss": "dig",
-      "conjClass": "ConjB"
-    },
-    "kais": {
-      "pos": "Verb",
-      "lemma": "kaʔ-is-",
-      "gloss": "make sb. stand up",
-      "conjClass": "ConjA"
-    },
-    "ooy": {
-      "pos": "Verb",
-      "lemma": "ʔooy-",
-      "gloss": "cry",
-      "conjClass": "ConjA"
-    },
-    "qaba": {
-      "pos": "Verb",
-      "lemma": "q’abaʔ -",
-      "gloss": "hear",
-      "conjClass": "ConjA"
-    },
-    "ug": {
-      "pos": "Verb",
-      "lemma": "ʕug",
-      "gloss": "drink",
-      "conjClass": "ConjA"
-    },
-    "zi": {
-      "pos": "Verb",
-      "lemma": "žíʔ",
-      "gloss": "eat",
-      "conjClass": "ConjB"
-    },
-    "zoq-am": {
-      "pos": "Verb",
-      "lemma": "žoq’-am-",
-      "gloss": "be beaten",
-      "conjClass": "ConjB"
-    }
+    "terms": [
+      ["deixis" ,"number" ,"gender" ,"token"],
+      ["Distal" ,"Singular" ,"Masc" ,"kotta"],
+      ["Distal" ,"Singular" ,"Fem" ,"tetta"],
+      ["Distal" ,"Plural" ,"Common" ,"ketta"],
+      ["Distal2" ,"Common" ,"Common" ,"kussa"],
+      ["Proximal" ,"Singular" ,"Masc" ,"kutta"],
+      ["Proximal" ,"Singular" ,"Fem" ,"titta"],
+      ["Proximal" ,"Plural" ,"Common" ,"kitta"],
+      ["Proximal2" ,"Singular" ,"Masc" ,"kusi"],
+      ["Proximal2" ,"Singular" ,"Fem" ,"tisi"],
+      ["Proximal2" ,"Plural" ,"Common" ,"kisi"]
+    ]
   },
-  "termclusters": [
-{
-"label": "tsamakko-VConjAAoristConjA-conjBComparison",
-"note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "ConjA_ConjBComparison"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-í"],
- ["Singular", "Person2", "Common", "ʕúg-dí*"],
- ["Singular", "Person3", "Masc", "ʕúg-í"],
- ["Singular", "Person3", "Fem", "ʕúg-dí"],
- ["Plural", "Person1", "Common", "ʕúg-ní"],
- ["Plural", "Person2", "Common", "ʕúg-de"],
- ["Plural", "Person3", "Common", "ʕúg-e"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCAffAorist-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-í"],
- ["Singular", "Person2", "Common", "káʔ-ís-tí"],
- ["Singular", "Person3", "Masc", "káʔ-ís-í"],
- ["Singular", "Person3", "Fem", "káʔ-ís-tí"],
- ["Plural", "Person1", "Common", "káʔ-ís-ní"],
- ["Plural", "Person2", "Common", "káʔ-te"],
- ["Plural", "Person3", "Common", "káʔ-ís-e"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCAffConsecutive-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-á"],
- ["Singular", "Person2", "Common", "káʔ-ís-áy"],
- ["Singular", "Person3", "Masc", "káʔ-ís-ú"],
- ["Singular", "Person3", "Fem", "káʔ-ís-í"],
- ["Plural", "Person1", "Common", "káʔ-ís -ánki"],
- ["Plural", "Person2", "Common", "káʔ-ís-ánku"],
- ["Plural", "Person3", "Common", "káʔ-ís-ínki"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCAffFuture-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-na"],
- ["Singular", "Person2", "Common", "káʔ-ís-nay"],
- ["Singular", "Person3", "Masc", "káʔ-ís-na"],
- ["Singular", "Person3", "Fem", "káʔ-ís-nay"],
- ["Plural", "Person1", "Common", "káʔ-ís-nánki"],
- ["Plural", "Person2", "Common", "káʔ-ís-nánku"],
- ["Plural", "Person3", "Common", "káʔ-ís-nánki"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCAffImperf-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-a"],
- ["Singular", "Person2", "Common", "káʔ-ís-ay"],
- ["Singular", "Person3", "Masc", "káʔ-ís-a"],
- ["Singular", "Person3", "Fem", "káʔ-ís-ay"],
- ["Plural", "Person1", "Common", "káʔ-ís-ánki"],
- ["Plural", "Person2", "Common", "káʔ-ís-ánku"],
- ["Plural", "Person3", "Common", "káʔ-ís-ánki"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCAffImprtv-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "gender": "Common",
- "lexeme": "kais",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "káʔ-ís"], ["Plural", "Person3", "káʔ-ís-á"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCAffJuss-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "káʔ-ís-á"],
- ["Singular", "Person3", "Fem", "káʔ-ís-ítá"],
- ["Plural", "Person1", "Common", "káʔ-ís-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "káʔ-ís-é"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCNegFuture-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-is-ní"],
- ["Singular", "Person2", "Common", "káʔ-is-íntí"],
- ["Singular", "Person3", "Masc", "káʔ-is-ní"],
- ["Singular", "Person3", "Fem", "káʔ-is-íntí"],
- ["Plural", "Person1", "Common", "káʔ-is-ínní"],
- ["Plural", "Person2", "Common", "káʔ-is-íntí"],
- ["Plural", "Person3", "Common", "káʔ-is-ní"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCNegJuss-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) káʔ-ís-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) káʔ-ís-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) káʔ-ís-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) káʔ-ís-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu) káʔ-ís-únki"],
- ["Plural", "Person2", "Common", "(ʔínnu) káʔ-ís-únku"],
- ["Plural", "Person3", "Common", "(ʔínnu) káʔ-ís-únki"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCNegNonPast-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-í"],
- ["Singular", "Person2", "Common", "káʔ-ís-tí"],
- ["Singular", "Person3", "Masc", "káʔ-ís-í"],
- ["Singular", "Person3", "Fem", "káʔ-ís-tí"],
- ["Plural", "Person1", "Common", "káʔ-ís-ní"],
- ["Plural", "Person2", "Common", "káʔ-ís-té"],
- ["Plural", "Person3", "Common", "káʔ-ís-é"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCNegPast-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔʔ-ís-á"],
- ["Singular", "Person2", "Common", "káʔʔ-ís-á"],
- ["Singular", "Person3", "Masc", "káʔʔ-ís-á"],
- ["Singular", "Person3", "Fem", "káʔʔ-ís-á"],
- ["Plural", "Person1", "Common", "káʔʔ-ís-ánkí"],
- ["Plural", "Person2", "Common", "káʔʔ-ís-ánkú"],
- ["Plural", "Person3", "Common", "káʔʔ-ís-ánkú"]]
-},
-{
-"label": "tsamakko-VConjACVC-VCSubFuture-kais",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "kais",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "káʔ-ís-ní"],
- ["Singular", "Person2", "Common", "káʔ-ís-íntí"],
- ["Singular", "Person3", "Masc", "káʔ-ís-ní"],
- ["Singular", "Person3", "Fem", "káʔ-ís-íntí"],
- ["Plural", "Person1", "Common", "káʔ-ís-nínní"],
- ["Plural", "Person2", "Common", "káʔ-ís-ínté"],
- ["Plural", "Person3", "Common", "káʔ-ís-né"]]
-},
-{
-"label": "tsamakko-VConjACVCAffAorist-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-í"],
- ["Singular", "Person2", "Common", "ʕúg-dí"],
- ["Singular", "Person3", "Masc", "ʕúg-í"],
- ["Singular", "Person3", "Fem", "ʕúg-dí"],
- ["Plural", "Person1", "Common", "ʕúg-ní"],
- ["Plural", "Person2", "Common", "ʕúg-de"],
- ["Plural", "Person3", "Common", "ʕúg-e"]]
-},
-{
-"label": "tsamakko-VConjACVCAffConsecutive-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-á"],
- ["Singular", "Person2", "Common", "ʕúg-áy"],
- ["Singular", "Person3", "Masc", "ʕúg-ú"],
- ["Singular", "Person3", "Fem", "ʕúg-í"],
- ["Plural", "Person1", "Common", "ʕúg-ánki"],
- ["Plural", "Person2", "Common", "ʕúg-ánku"],
- ["Plural", "Person3", "Common", "ʕúg-ínki"]]
-},
-{
-"label": "tsamakko-VConjACVCAffFuture-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-na"],
- ["Singular", "Person2", "Common", "ʕúg-nay"],
- ["Singular", "Person3", "Masc", "ʕúg-na"],
- ["Singular", "Person3", "Fem", "ʕúg-nay"],
- ["Plural", "Person1", "Common", "ʕúg-nánki"],
- ["Plural", "Person2", "Common", "ʕúg-nánku"],
- ["Plural", "Person3", "Common", "ʕúg-nánki"]]
-},
-{
-"label": "tsamakko-VConjACVCAffImperf-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-a"],
- ["Singular", "Person2", "Common", "ʕúg-ay"],
- ["Singular", "Person3", "Masc", "ʕúg-a"],
- ["Singular", "Person3", "Fem", "ʕúg-ay"],
- ["Plural", "Person1", "Common", "ʕúg-ánki"],
- ["Plural", "Person2", "Common", "ʕúg-ánku"],
- ["Plural", "Person3", "Common", "ʕúg-ánki"]]
-},
-{
-"label": "tsamakko-VConjACVCAffImprtv-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "gender": "Common",
- "lexeme": "ug",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "ʕúg-"], ["Plural", "Person3", "ʕug-á"]]
-},
-{
-"label": "tsamakko-VConjACVCAffJuss-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕug-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "ʕug-á"],
- ["Singular", "Person3", "Fem", "ʕug-ítá"],
- ["Plural", "Person1", "Common", "ʕug-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "ʕug-é"]]
-},
-{
-"label": "tsamakko-VConjACVCNegFuture-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕug-ní"],
- ["Singular", "Person2", "Common", "ʕug-íntí"],
- ["Singular", "Person3", "Masc", "ʕug-ní"],
- ["Singular", "Person3", "Fem", "ʕug-íntí"],
- ["Plural", "Person1", "Common", "ʕug-ínní"],
- ["Plural", "Person2", "Common", "ʕug-ínté"],
- ["Plural", "Person3", "Common", "ʕug-né"]]
-},
-{
-"label": "tsamakko-VConjACVCNegJuss-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) ʕúg-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) ʕúg-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) ʕúg-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) ʕúg-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu) ʕúg-únkí"],
- ["Plural", "Person2", "Common", "(ʔínnu) ʕúg-únkú"],
- ["Plural", "Person3", "Common", "(ʔínnu) ʕúg-únkí"]]
-},
-{
-"label": "tsamakko-VConjACVCNegNonPast-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-í"],
- ["Singular", "Person2", "Common", "ʕúg-dí"],
- ["Singular", "Person3", "Masc", "ʕúg-í"],
- ["Singular", "Person3", "Fem", "ʕúg-dí"],
- ["Plural", "Person1", "Common", "ʕúg-ní"],
- ["Plural", "Person2", "Common", "ʕúg-dé"],
- ["Plural", "Person3", "Common", "ʕúg-é"]]
-},
-{
-"label": "tsamakko-VConjACVCNegPast-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúgg-á"],
- ["Singular", "Person2", "Common", "ʕúgg-á"],
- ["Singular", "Person3", "Masc", "ʕúgg-á"],
- ["Singular", "Person3", "Fem", "ʕúgg-á"],
- ["Plural", "Person1", "Common", "ʕúgg-ánkí"],
- ["Plural", "Person2", "Common", "ʕúgg-ánkú"],
- ["Plural", "Person3", "Common", "ʕúgg-ánkú"]]
-},
-{
-"label": "tsamakko-VConjACVCSubFuture-ug",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-ní"],
- ["Singular", "Person2", "Common", "ʕúg-íntí"],
- ["Singular", "Person3", "Masc", "ʕúg-ní"],
- ["Singular", "Person3", "Fem", "ʕúg-íntí"],
- ["Plural", "Person1", "Common", "ʕúg-nínní"],
- ["Plural", "Person2", "Common", "ʕúg-ínté"],
- ["Plural", "Person3", "Common", "ʕúg-né"]]
-},
-{
-"label": "tsamakko-VConjACVCVCAffAorist-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábaʔ-í"],
- ["Singular", "Person2", "Common", "q’ábaʔ-tí"],
- ["Singular", "Person3", "Masc", "q’ábaʔ-í"],
- ["Singular", "Person3", "Fem", "q’ábaʔ-tí"],
- ["Plural", "Person1", "Common", "q’ábaʔ-ní"],
- ["Plural", "Person2", "Common", "q’ábaʔ-te"],
- ["Plural", "Person3", "Common", "q’ábaʔ-e"]]
-},
-{
-"label": "tsamakko-VConjACVCVCAffConsecutive-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábáʔ-á"],
- ["Singular", "Person2", "Common", "q’ábáʔ-áy"],
- ["Singular", "Person3", "Masc", "q’ábáʔ-ú"],
- ["Singular", "Person3", "Fem", "q’ábáʔ-í"],
- ["Plural", "Person1", "Common", "q’ábáʔ-ánki"],
- ["Plural", "Person2", "Common", "q’ábáʔ-ánku"],
- ["Plural", "Person3", "Common", "q’ábáʔ-ónki"]]
-},
-{
-"label": "tsamakko-VConjACVCVCAffFuture-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábaʔ-na"],
- ["Singular", "Person2", "Common", "q’ábaʔ-nay"],
- ["Singular", "Person3", "Masc", "q’ábaʔ-na"],
- ["Singular", "Person3", "Fem", "q’ábaʔ-nay"],
- ["Plural", "Person1", "Common", "q’ábaʔ-nánki"],
- ["Plural", "Person2", "Common", "q’ábaʔ-nánku"],
- ["Plural", "Person3", "Common", "q’ábaʔ-nánki"]]
-},
-{
-"label": "tsamakko-VConjACVCVCAffImperf-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábaʔ-a"],
- ["Singular", "Person2", "Common", "q’ábaʔ-ay"],
- ["Singular", "Person3", "Masc", "q’ábaʔ-a"],
- ["Singular", "Person3", "Fem", "q’ábaʔ-ay"],
- ["Plural", "Person1", "Common", "q’ábaʔ-ánki"],
- ["Plural", "Person2", "Common", "q’ábaʔ-ánku"],
- ["Plural", "Person3", "Common", "q’ábaʔ-ánki"]]
-},
-{
-"label": "tsamakko-VConjACVCVCAffImprtv-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "gender": "Common",
- "lexeme": "qaba",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "q’ábáʔ"], ["Plural", "Person3", "q’ábáʔ-á"]]
-},
-{
-"label": "tsamakko-VConjACVCVCAffJuss-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’abaʔ-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "q’abaʔ-á"],
- ["Singular", "Person3", "Fem", "q’abaʔ-ítá"],
- ["Plural", "Person1", "Common", "q’abaʔ-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "q’abaʔ-é"]]
-},
-{
-"label": "tsamakko-VConjACVCVCNegFuture-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’abaʔ-ní"],
- ["Singular", "Person2", "Common", "q’abaʔ-íntí"],
- ["Singular", "Person3", "Masc", "q’abaʔ-ní"],
- ["Singular", "Person3", "Fem", "q’abaʔ-íntí"],
- ["Plural", "Person1", "Common", "q’abaʔ-ínní"],
- ["Plural", "Person2", "Common", "q’abaʔ-íntí"],
- ["Plural", "Person3", "Common", "q’abaʔ-ní"]]
-},
-{
-"label": "tsamakko-VConjACVCVCNegJuss-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) q’ábáʔ-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) q’ábáʔ-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) q’ábáʔ-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) q’ábáʔ-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu) q’ábáʔ-únki"],
- ["Plural", "Person2", "Common", "(ʔínnu) q’ábáʔ-únku"],
- ["Plural", "Person3", "Common", "(ʔínnu) q’ábáʔ-únki"]]
-},
-{
-"label": "tsamakko-VConjACVCVCNegNonPast-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábáʔ-í"],
- ["Singular", "Person2", "Common", "q’ábáʔ-tí"],
- ["Singular", "Person3", "Masc", "q’ábáʔ-í"],
- ["Singular", "Person3", "Fem", "q’ábáʔ-tí"],
- ["Plural", "Person1", "Common", "q’ábáʔ-ní"],
- ["Plural", "Person2", "Common", "q’ábáʔ-té"],
- ["Plural", "Person3", "Common", "q’ábáʔ-é"]]
-},
-{
-"label": "tsamakko-VConjACVCVCNegPast-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábáʔʔ-á"],
- ["Singular", "Person2", "Common", "q’ábáʔʔ-á"],
- ["Singular", "Person3", "Masc", "q’ábáʔʔ-á"],
- ["Singular", "Person3", "Fem", "q’ábáʔʔ-á"],
- ["Plural", "Person1", "Common", "q’ábáʔʔ-ánkí"],
- ["Plural", "Person2", "Common", "q’ábáʔʔ-ánkú"],
- ["Plural", "Person3", "Common", "q’ábáʔʔ-ánkú"]]
-},
-{
-"label": "tsamakko-VConjACVCVCSubFuture-qaba",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "qaba",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "q’ábaʔ-ní"],
- ["Singular", "Person2", "Common", "q’ábaʔ-íntí"],
- ["Singular", "Person3", "Masc", "q’ábaʔ-ní"],
- ["Singular", "Person3", "Fem", "q’ábaʔ-íntí"],
- ["Plural", "Person1", "Common", "q’ábaʔ-nínní"],
- ["Plural", "Person2", "Common", "q’ábaʔ-ínté"],
- ["Plural", "Person3", "Common", "q’ábaʔ-né"]]
-},
-{
-"label": "tsamakko-VConjACVVCAffAorist-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-í"],
- ["Singular", "Person2", "Common", "ʔóóy-tí"],
- ["Singular", "Person3", "Masc", "ʔóóy-í"],
- ["Singular", "Person3", "Fem", "ʔóóy-tí"],
- ["Plural", "Person1", "Common", "ʔóóy-ní"],
- ["Plural", "Person2", "Common", "ʔóóy-te"],
- ["Plural", "Person3", "Common", "ʔóóy-e"]]
-},
-{
-"label": "tsamakko-VConjACVVCAffConsecutive-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-á"],
- ["Singular", "Person2", "Common", "ʔóóy-áy"],
- ["Singular", "Person3", "Masc", "ʔóóy-ú"],
- ["Singular", "Person3", "Fem", "ʔóóy-í"],
- ["Plural", "Person1", "Common", "ʔóóy-ánki"],
- ["Plural", "Person2", "Common", "ʔóóy-ánku"],
- ["Plural", "Person3", "Common", "ʔóóy-nki"]]
-},
-{
-"label": "tsamakko-VConjACVVCAffFuture-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-na"],
- ["Singular", "Person2", "Common", "ʔóóy-nay"],
- ["Singular", "Person3", "Masc", "ʔóóy-na"],
- ["Singular", "Person3", "Fem", "ʔóóy-nay"],
- ["Plural", "Person1", "Common", "ʔóóy-nánki"],
- ["Plural", "Person2", "Common", "ʔóóy-nánku"],
- ["Plural", "Person3", "Common", "ʔóóy-nánki"]]
-},
-{
-"label": "tsamakko-VConjACVVCAffImperf-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-a"],
- ["Singular", "Person2", "Common", "ʔóóy-ay"],
- ["Singular", "Person3", "Masc", "ʔóóy-a"],
- ["Singular", "Person3", "Fem", "ʔóóy-ay"],
- ["Plural", "Person1", "Common", "ʔóóy-ánki"],
- ["Plural", "Person2", "Common", "ʔóóy-ánku"],
- ["Plural", "Person3", "Common", "ʔóóy-ánki"]]
-},
-{
-"label": "tsamakko-VConjACVVCAffImprtv-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "gender": "Common",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "ʔóóy"], ["Plural", "Person3", "ʔóóy-á"]]
-},
-{
-"label": "tsamakko-VConjACVVCAffJuss-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "ʔóóy-á"],
- ["Singular", "Person3", "Fem", "ʔóóy-ítá"],
- ["Plural", "Person1", "Common", "ʔóóy-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "ʔóóy-é"]]
-},
-{
-"label": "tsamakko-VConjACVVCNegFuture-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-ní"],
- ["Singular", "Person2", "Common", "ʔóóy-íntí"],
- ["Singular", "Person3", "Masc", "ʔóóy-ní"],
- ["Singular", "Person3", "Fem", "ʔóóy-íntí"],
- ["Plural", "Person1", "Common", "ʔóóy-ínní"],
- ["Plural", "Person2", "Common", "ʔóóy-ínté"],
- ["Plural", "Person3", "Common", "ʔóóy-né"]]
-},
-{
-"label": "tsamakko-VConjACVVCNegJuss-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) óóy-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) óóy-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) óóy-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) óóy-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu) óóy-únkí"],
- ["Plural", "Person2", "Common", "(ʔínnu) óóy-únkú"],
- ["Plural", "Person3", "Common", "(ʔínnu) óóy-únkí"]]
-},
-{
-"label": "tsamakko-VConjACVVCNegNonPast-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-í"],
- ["Singular", "Person2", "Common", "ʔóóy-tí"],
- ["Singular", "Person3", "Masc", "ʔóóy-í"],
- ["Singular", "Person3", "Fem", "ʔóóy-tí"],
- ["Plural", "Person1", "Common", "ʔóóy-ní"],
- ["Plural", "Person2", "Common", "ʔóóy-té"],
- ["Plural", "Person3", "Common", "ʔóóy-é"]]
-},
-{
-"label": "tsamakko-VConjACVVCNegPast-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóyy-á"],
- ["Singular", "Person2", "Common", "ʔóóyy-á"],
- ["Singular", "Person3", "Masc", "ʔóóyy-á"],
- ["Singular", "Person3", "Fem", "ʔóóyy-á"],
- ["Plural", "Person1", "Common", "ʔóóyy-ánkí"],
- ["Plural", "Person2", "Common", "ʔóóyy-ánkú"],
- ["Plural", "Person3", "Common", "ʔóóyy-ánkú"]]
-},
-{
-"label": "tsamakko-VConjACVVCSubFuture-ooy",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjA",
- "lexeme": "ooy",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔóóy-ní"],
- ["Singular", "Person2", "Common", "ʔóóy-íntí"],
- ["Singular", "Person3", "Masc", "ʔóóy-ní"],
- ["Singular", "Person3", "Fem", "ʔóóy-íntí"],
- ["Plural", "Person1", "Common", "ʔóóy-nínní"],
- ["Plural", "Person2", "Common", "ʔóóy-ínté"],
- ["Plural", "Person3", "Common", "ʔóóy-né"]]
-},
-{
-"label": "tsamakko-VConjAConsecutiveConjA-conjBComparison",
-"note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
-"common": {"conjClass": "ConjA",
- "lexeme": "ug",
- "pos": "Verb",
- "tam": "Consecutive",
- "vmorphClass": "ConjA_ConjBComparison"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʕúg-á"],
- ["Singular", "Person2", "Common", "ʕúg-áy"],
- ["Singular", "Person3", "Masc", "ʕúg-ú"],
- ["Singular", "Person3", "Fem", "ʕúg-í"],
- ["Plural", "Person1", "Common", "ʕúg-ánki"],
- ["Plural", "Person2", "Common", "ʕúg-ánku"],
- ["Plural", "Person3", "Common", "ʕúg-ínki"]]
-},
-{
-"label": "tsamakko-VConjAImprtvConjA-conjBComparison",
-"note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
-"common": {"conjClass": "ConjA",
- "gender": "Common",
- "lexeme": "ug",
- "person": "Person2",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "ConjA_ConjBComparison"},
-"terms":  
-[["number", "token"], ["Singular", "ʕúg"], ["Plural", "ʕug-á"]]
-},
-{
-"label": "tsamakko-VConjBAoristConjA-conjBComparison",
-"note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "pos": "Verb",
- "tam": "Aorist",
- "vmorphClass": "ConjA_ConjBComparison"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "zíʔ-i"],
- ["Singular", "Person2", "Common", "zíʔ-ti"],
- ["Singular", "Person3", "Masc", "zíʔ-i"],
- ["Singular", "Person3", "Fem", "ziʔ-ti"],
- ["Plural", "Person1", "Common", "zíʔ-ni"],
- ["Plural", "Person2", "Common", "zíʔ-te"],
- ["Plural", "Person3", "Common", "zíʔ-e"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCAffAorist-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq-ám-i"],
- ["Singular", "Person2", "Common", "žóq-ám-ti"],
- ["Singular", "Person3", "Masc", "žóq-ám-i"],
- ["Singular", "Person3", "Fem", "žóq-ám-ti"],
- ["Plural", "Person1", "Common", "žóq-ám-ni"],
- ["Plural", "Person2", "Common", "žóq-ám-te"],
- ["Plural", "Person3", "Common", "žóq-ám-e"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCAffConsecutive-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq’-ám-ó"],
- ["Singular", "Person2", "Common", "žóq’-ám-óy"],
- ["Singular", "Person3", "Masc", "žóq’-ám-ó"],
- ["Singular", "Person3", "Fem", "žóq’-ám-óy"],
- ["Plural", "Person1", "Common", "žóq’-ám-ónki"],
- ["Plural", "Person2", "Common", "žóq’-ám-ónku"],
- ["Plural", "Person3", "Common", "žóq’-ám-ónki"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCAffFuture-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq-ám-na"],
- ["Singular", "Person2", "Common", "žóq-ám-nay"],
- ["Singular", "Person3", "Masc", "žóq-ám-na"],
- ["Singular", "Person3", "Fem", "žóq-ám -nay"],
- ["Plural", "Person1", "Common", "žóq-ám-nánki"],
- ["Plural", "Person2", "Common", "žóq-ám-nánku"],
- ["Plural", "Person3", "Common", "žóq-ám-nánki"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCAffImperf-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq-ám-a"],
- ["Singular", "Person2", "Common", "žóq-ám-ay"],
- ["Singular", "Person3", "Masc", "žóq-ám-a"],
- ["Singular", "Person3", "Fem", "žóq-ám-ay"],
- ["Plural", "Person1", "Common", "žóq-ám-ánki"],
- ["Plural", "Person2", "Common", "žóq-ám-ánku"],
- ["Plural", "Person3", "Common", "žóq-ám-ánki"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCAffImprtv-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "gender": "Common",
- "lexeme": "zoq-am",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "žóq’-ám-á"], ["Plural", "Person3", "žóq’-ám-ínɗá"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCAffJuss-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žoq’-am-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "žoq’-am-á"],
- ["Singular", "Person3", "Fem", "žoq’-am-ítá"],
- ["Plural", "Person1", "Common", "žoq’-am-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "žoq’-am-é"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCNegFuture-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žoq’-am-ní"],
- ["Singular", "Person2", "Common", "žoq’-am-íntí"],
- ["Singular", "Person3", "Masc", "žoq’-am-ní"],
- ["Singular", "Person3", "Fem", "žoq’-am-íntí"],
- ["Plural", "Person1", "Common", "žoq’-am-ínní"],
- ["Plural", "Person2", "Common", "žoq’-am-íntí"],
- ["Plural", "Person3", "Common", "žoq’-am-ní"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCNegJuss-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq’-ám-ú"],
- ["Singular", "Person2", "Common", "žóq’-ám-ú"],
- ["Singular", "Person3", "Masc", "žóq’-ám-ú"],
- ["Singular", "Person3", "Fem", "žóq’-ám-ú"],
- ["Plural", "Person1", "Common", "žóq’-ám-únki"],
- ["Plural", "Person2", "Common", "žóq’-ám-únku"],
- ["Plural", "Person3", "Common", "žóq’-ám-únki"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCNegNonPast-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq’-ám-í"],
- ["Singular", "Person2", "Common", "žóq’-ám-tí"],
- ["Singular", "Person3", "Masc", "žóq’-ám-í"],
- ["Singular", "Person3", "Fem", "žóq’-ám-tí"],
- ["Plural", "Person1", "Common", "žóq’-ám-ní"],
- ["Plural", "Person2", "Common", "žóq’-ám-té"],
- ["Plural", "Person3", "Common", "žóq’-ám-é"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCNegPast-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq’-ám-á"],
- ["Singular", "Person2", "Common", "žóq’-ám-á"],
- ["Singular", "Person3", "Masc", "žóq’-ám-á"],
- ["Singular", "Person3", "Fem", "žóq’-ám-á"],
- ["Plural", "Person1", "Common", "žóq’-ám-ánkí"],
- ["Plural", "Person2", "Common", "žóq’-ám-ánkú"],
- ["Plural", "Person3", "Common", "žóq’-ám-ánkú"]]
-},
-{
-"label": "tsamakko-VConjBCVC-VCSubFuture-zoq-am",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zoq-am",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVC_VC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žóq-ám-ní"],
- ["Singular", "Person2", "Common", "žóq-ám-íntí"],
- ["Singular", "Person3", "Masc", "žóq-ám-ní"],
- ["Singular", "Person3", "Fem", "žóq-ám-íntí"],
- ["Plural", "Person1", "Common", "žóq-ám-nínní"],
- ["Plural", "Person2", "Common", "žóq-ám-ínté"],
- ["Plural", "Person3", "Common", "žóq-ám-né"]]
-},
-{
-"label": "tsamakko-VConjBCVCAffAorist-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-i"],
- ["Singular", "Person2", "Common", "žíʔ-ti"],
- ["Singular", "Person3", "Masc", "žíʔ-i"],
- ["Singular", "Person3", "Fem", "žíʔ-ti"],
- ["Plural", "Person1", "Common", "žíʔ-ni"],
- ["Plural", "Person2", "Common", "žíʔ-te"],
- ["Plural", "Person3", "Common", "žíʔ-e"]]
-},
-{
-"label": "tsamakko-VConjBCVCAffConsecutive-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-ó"],
- ["Singular", "Person2", "Common", "žíʔ-óy"],
- ["Singular", "Person3", "Masc", "žíʔ-ó"],
- ["Singular", "Person3", "Fem", "žíʔ-óy"],
- ["Plural", "Person1", "Common", "žíʔ-ónki"],
- ["Plural", "Person2", "Common", "žíʔ-ónku"],
- ["Plural", "Person3", "Common", "žíʔ-ónki"]]
-},
-{
-"label": "tsamakko-VConjBCVCAffFuture-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-na"],
- ["Singular", "Person2", "Common", "žíʔ-nay"],
- ["Singular", "Person3", "Masc", "žíʔ-na"],
- ["Singular", "Person3", "Fem", "žíʔ-nay"],
- ["Plural", "Person1", "Common", "žíʔ-nánki"],
- ["Plural", "Person2", "Common", "žíʔ-nánku"],
- ["Plural", "Person3", "Common", "žíʔ-nánki"]]
-},
-{
-"label": "tsamakko-VConjBCVCAffImperf-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-a"],
- ["Singular", "Person2", "Common", "žíʔ-ay"],
- ["Singular", "Person3", "Masc", "žíʔ-a"],
- ["Singular", "Person3", "Fem", "žíʔ-ay"],
- ["Plural", "Person1", "Common", "žíʔ-anki"],
- ["Plural", "Person2", "Common", "žíʔ-anku"],
- ["Plural", "Person3", "Common", "žíʔ-anki"]]
-},
-{
-"label": "tsamakko-VConjBCVCAffImprtv-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "gender": "Common",
- "lexeme": "zi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "žíʔ-á"], ["Plural", "Person3", "žíʔ-ínɗá"]]
-},
-{
-"label": "tsamakko-VConjBCVCAffJuss-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "žíʔ-á"],
- ["Singular", "Person3", "Fem", "žíʔ-ítá"],
- ["Plural", "Person1", "Common", "žíʔ-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "žíʔ-é"]]
-},
-{
-"label": "tsamakko-VConjBCVCNegFuture-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-ní"],
- ["Singular", "Person2", "Common", "žíʔ-íntí"],
- ["Singular", "Person3", "Masc", "žíʔ-ní"],
- ["Singular", "Person3", "Fem", "žíʔ-íntí"],
- ["Plural", "Person1", "Common", "žíʔ-ínní"],
- ["Plural", "Person2", "Common", "žíʔ-ínté"],
- ["Plural", "Person3", "Common", "žíʔ-né"]]
-},
-{
-"label": "tsamakko-VConjBCVCNegJuss-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) žíʔ-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) žíʔ-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) žíʔ-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) žíʔ-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu)žíʔ-únkí"],
- ["Plural", "Person2", "Common", "(ʔínnu) žíʔ-únkú"],
- ["Plural", "Person3", "Common", "(ʔínnu) žíʔ-únkí"]]
-},
-{
-"label": "tsamakko-VConjBCVCNegNonPast-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-í"],
- ["Singular", "Person2", "Common", "žíʔ-tí"],
- ["Singular", "Person3", "Masc", "žíʔ-í"],
- ["Singular", "Person3", "Fem", "žíʔ-tí"],
- ["Plural", "Person1", "Common", "žíʔ-ní"],
- ["Plural", "Person2", "Common", "žíʔ-té"],
- ["Plural", "Person3", "Common", "žíʔ-é"]]
-},
-{
-"label": "tsamakko-VConjBCVCNegPast-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔʔ-á"],
- ["Singular", "Person2", "Common", "žíʔʔ-á"],
- ["Singular", "Person3", "Masc", "žíʔʔ-á"],
- ["Singular", "Person3", "Fem", "žíʔʔ-á"],
- ["Plural", "Person1", "Common", "žíʔʔ-ánkí"],
- ["Plural", "Person2", "Common", "žíʔʔ-ánkú"],
- ["Plural", "Person3", "Common", "žíʔʔ-ánkú"]]
-},
-{
-"label": "tsamakko-VConjBCVCSubFuture-zi",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "žíʔ-ní"],
- ["Singular", "Person2", "Common", "žíʔ-íntí"],
- ["Singular", "Person3", "Masc", "žíʔ-ní"],
- ["Singular", "Person3", "Fem", "žíʔ-íntí"],
- ["Plural", "Person1", "Common", "žíʔ-nínní"],
- ["Plural", "Person2", "Common", "žíʔ-ínté"],
- ["Plural", "Person3", "Common", "žíʔ-né"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCAffAorist-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-i"],
- ["Singular", "Person2", "Common", "ʔábún-ti"],
- ["Singular", "Person3", "Masc", "ʔábún-ti"],
- ["Singular", "Person3", "Fem", "ʔábún-i"],
- ["Plural", "Person1", "Common", "ʔábún-ni"],
- ["Plural", "Person2", "Common", "ʔábún-te"],
- ["Plural", "Person3", "Common", "ʔábún-e"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCAffConsecutive-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-ó"],
- ["Singular", "Person2", "Common", "ʔábún-óy"],
- ["Singular", "Person3", "Masc", "ʔábún-ó"],
- ["Singular", "Person3", "Fem", "ʔábún-óy"],
- ["Plural", "Person1", "Common", "ʔábún-ónki"],
- ["Plural", "Person2", "Common", "ʔábún-ónku"],
- ["Plural", "Person3", "Common", "ʔábún-ónki"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCAffFuture-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-na"],
- ["Singular", "Person2", "Common", "ʔábún-nay"],
- ["Singular", "Person3", "Masc", "ʔábún-na"],
- ["Singular", "Person3", "Fem", "ʔábún-nay"],
- ["Plural", "Person1", "Common", "ʔábún-nánki"],
- ["Plural", "Person2", "Common", "ʔábún-nánku"],
- ["Plural", "Person3", "Common", "ʔábún-nánki"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCAffImperf-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-a"],
- ["Singular", "Person2", "Common", "ʔábún-ay"],
- ["Singular", "Person3", "Masc", "ʔábún-a"],
- ["Singular", "Person3", "Fem", "ʔábún-ay"],
- ["Plural", "Person1", "Common", "ʔábún-ánki"],
- ["Plural", "Person2", "Common", "ʔábún-ánku"],
- ["Plural", "Person3", "Common", "ʔábún-ánki"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCAffImprtv-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "gender": "Common",
- "lexeme": "abun",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "ʔábún-á"], ["Plural", "Person3", "ʔábún-inɗá"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCAffJuss-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "ʔábún-á"],
- ["Singular", "Person3", "Fem", "ʔábún-ítá"],
- ["Plural", "Person1", "Common", "ʔábún-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "ʔábún-é"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCNegFuture-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-ní"],
- ["Singular", "Person2", "Common", "ʔábún-íntí"],
- ["Singular", "Person3", "Masc", "ʔábún-ní"],
- ["Singular", "Person3", "Fem", "ʔábún-íntí"],
- ["Plural", "Person1", "Common", "ʔábún-ínní"],
- ["Plural", "Person2", "Common", "ʔábún-íntí"],
- ["Plural", "Person3", "Common", "ʔábún-ní"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCNegJuss-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) ʔábún-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) ʔábún-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) ʔábún-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) ʔábún-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu) ʔábún-únki"],
- ["Plural", "Person2", "Common", "(ʔínnu) ʔábún-únku"],
- ["Plural", "Person3", "Common", "(ʔínnu) ʔábún-únki"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCNegNonPast-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-í"],
- ["Singular", "Person2", "Common", "ʔábún-tí"],
- ["Singular", "Person3", "Masc", "ʔábún-í"],
- ["Singular", "Person3", "Fem", "ʔábún-tí"],
- ["Plural", "Person1", "Common", "ʔábún-ní"],
- ["Plural", "Person2", "Common", "ʔábún-té"],
- ["Plural", "Person3", "Common", "ʔábún-é"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCNegPast-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábúnn-á"],
- ["Singular", "Person2", "Common", "ʔábúnn-á"],
- ["Singular", "Person3", "Masc", "ʔábúnn-á"],
- ["Singular", "Person3", "Fem", "ʔábúnn-á"],
- ["Plural", "Person1", "Common", "ʔábúnn-ánkí"],
- ["Plural", "Person2", "Common", "ʔábúnn-ánkú"],
- ["Plural", "Person3", "Common", "ʔábúnn-ánkú"]]
-},
-{
-"label": "tsamakko-VConjBCVCVCSubFuture-abun",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "abun",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVCVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "ʔábún-ní"],
- ["Singular", "Person2", "Common", "ʔábún-íntí"],
- ["Singular", "Person3", "Masc", "ʔábún-ní"],
- ["Singular", "Person3", "Fem", "ʔábún-íntí"],
- ["Plural", "Person1", "Common", "ʔábún-nínní"],
- ["Plural", "Person2", "Common", "ʔábún-ínté"],
- ["Plural", "Person3", "Common", "ʔábún-né"]]
-},
-{
-"label": "tsamakko-VConjBCVVCAffAorist-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Aorist",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-i"],
- ["Singular", "Person2", "Common", "bóód-ti"],
- ["Singular", "Person3", "Masc", "bóód-i"],
- ["Singular", "Person3", "Fem", "bóód-ti"],
- ["Plural", "Person1", "Common", "bóód-ni"],
- ["Plural", "Person2", "Common", "bóód-te"],
- ["Plural", "Person3", "Common", "bóód-e"]]
-},
-{
-"label": "tsamakko-VConjBCVVCAffConsecutive-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Consecutive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-ó"],
- ["Singular", "Person2", "Common", "bóód-óy"],
- ["Singular", "Person3", "Masc", "bóód-ó"],
- ["Singular", "Person3", "Fem", "bóód-óy"],
- ["Plural", "Person1", "Common", "bóód-ónki"],
- ["Plural", "Person2", "Common", "bóód-ónku"],
- ["Plural", "Person3", "Common", "bóód-ónki"]]
-},
-{
-"label": "tsamakko-VConjBCVVCAffFuture-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-na"],
- ["Singular", "Person2", "Common", "bóód-nay"],
- ["Singular", "Person3", "Masc", "bóód-na"],
- ["Singular", "Person3", "Fem", "bóód-nay"],
- ["Plural", "Person1", "Common", "bóód-nánki"],
- ["Plural", "Person2", "Common", "bóód-nánku"],
- ["Plural", "Person3", "Common", "bóód-nánki"]]
-},
-{
-"label": "tsamakko-VConjBCVVCAffImperf-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Imperfect",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-a"],
- ["Singular", "Person2", "Common", "bóód-ay"],
- ["Singular", "Person3", "Masc", "bóód-a"],
- ["Singular", "Person3", "Fem", "bóód-ay"],
- ["Plural", "Person1", "Common", "bóód-anki"],
- ["Plural", "Person2", "Common", "bóód-anku"],
- ["Plural", "Person3", "Common", "bóód-anki"]]
-},
-{
-"label": "tsamakko-VConjBCVVCAffImprtv-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "gender": "Common",
- "lexeme": "bod",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Imperative",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "token"], ["Singular", "Person2", "bóód-á"], ["Plural", "Person3", "bóód-ínɗa"]]
-},
-{
-"label": "tsamakko-VConjBCVVCAffJuss-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Affirmative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-á"],
- ["Singular", "Person2", "Common", "_NULL"],
- ["Singular", "Person3", "Masc", "bóód-á"],
- ["Singular", "Person3", "Fem", "bóód-ítá"],
- ["Plural", "Person1", "Common", "bóód-ná"],
- ["Plural", "Person2", "Common", "_NULL"],
- ["Plural", "Person3", "Common", "bóód-é"]]
-},
-{
-"label": "tsamakko-VConjBCVVCNegFuture-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-ní"],
- ["Singular", "Person2", "Common", "bóód-íntí"],
- ["Singular", "Person3", "Masc", "bóód-ní"],
- ["Singular", "Person3", "Fem", "bóód-íntí"],
- ["Plural", "Person1", "Common", "bóód-ínní"],
- ["Plural", "Person2", "Common", "bóód-ínté"],
- ["Plural", "Person3", "Common", "bóód-né"]]
-},
-{
-"label": "tsamakko-VConjBCVVCNegJuss-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Jussive",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "(ʔínnu) bóód-ú"],
- ["Singular", "Person2", "Common", "(ʔínnu) bóód-ú"],
- ["Singular", "Person3", "Masc", "(ʔínnu) bóód-ú"],
- ["Singular", "Person3", "Fem", "(ʔínnu) bóód-ú"],
- ["Plural", "Person1", "Common", "(ʔínnu) bóód-únkí"],
- ["Plural", "Person2", "Common", "(ʔínnu) bóód-únkú"],
- ["Plural", "Person3", "Common", "(ʔínnu) bóód-únkí"]]
-},
-{
-"label": "tsamakko-VConjBCVVCNegNonPast-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "NonPast",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-í"],
- ["Singular", "Person2", "Common", "bóód-tí"],
- ["Singular", "Person3", "Masc", "bóód-í"],
- ["Singular", "Person3", "Fem", "bóód-tí"],
- ["Plural", "Person1", "Common", "bóód-ní"],
- ["Plural", "Person2", "Common", "bóód -té"],
- ["Plural", "Person3", "Common", "bóód-é"]]
-},
-{
-"label": "tsamakko-VConjBCVVCNegPast-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Negative",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Past",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóódd-á"],
- ["Singular", "Person2", "Common", "bóódd-á"],
- ["Singular", "Person3", "Masc", "bóódd-á"],
- ["Singular", "Person3", "Fem", "bóódd-á"],
- ["Plural", "Person1", "Common", "bóódd-ánkí"],
- ["Plural", "Person2", "Common", "bóódd-ánkú"],
- ["Plural", "Person3", "Common", "bóódd-ánkú"]]
-},
-{
-"label": "tsamakko-VConjBCVVCSubFuture-bod",
-"note": "Sa05pp.166-170",
-"common": {"conjClass": "ConjB",
- "lexeme": "bod",
- "polarity": "Subordinate",
- "pos": "Verb",
- "stemShape": "CVVC",
- "tam": "Future",
- "vmorphClass": "Finite"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "bóód-ní"],
- ["Singular", "Person2", "Common", "bóód-íntí"],
- ["Singular", "Person3", "Masc", "bóód-ní"],
- ["Singular", "Person3", "Fem", "bóód-íntí"],
- ["Plural", "Person1", "Common", "bóód-nínní"],
- ["Plural", "Person2", "Common", "bóód-ínté"],
- ["Plural", "Person3", "Common", "bóód-né"]]
-},
-{
-"label": "tsamakko-VConjBConsecutiveConjA-conjBComparison",
-"note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
-"common": {"conjClass": "ConjB",
- "lexeme": "zi",
- "pos": "Verb",
- "tam": "Consecutive",
- "vmorphClass": "ConjA_ConjBComparison"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "zíʔ-ó"],
- ["Singular", "Person2", "Common", "zíʔ-óy"],
- ["Singular", "Person3", "Masc", "zíʔ-ó"],
- ["Singular", "Person3", "Fem", "zíʔ-óy"],
- ["Plural", "Person1", "Common", "zíʔ-ónki"],
- ["Plural", "Person2", "Common", "zíʔ-ónku"],
- ["Plural", "Person3", "Common", "zíʔ-ónki"]]
-},
-{
-"label": "tsamakko-VConjBImprtvConjA-conjBComparison",
-"note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
-"common": {"conjClass": "ConjB",
- "gender": "Common",
- "lexeme": "zi",
- "person": "Person2",
- "pos": "Verb",
- "tam": "Imperative",
- "vmorphClass": "ConjA_ConjBComparison"},
-"terms":  
-[["number", "token"], ["Singular", "ziʔ-á"], ["Plural", "ziʔ-inɗá"]]
-},
-{
-"label": "tsamakko-PDefMarker",
-"note": "Sa05t26",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "DefMarker"},
-"terms":  
-[["defMarker", "number", "gender", "token"],
- ["SsaClass", "Singular", "Masc", "kosa ~ kossa"],
- ["SsaClass", "Singular", "Fem", "teas ~ tessa"],
- ["SsaClass", "Plural", "Common", "kesa ~ kessa"],
- ["SseClass", "Singular", "Masc", "kosse"],
- ["SseClass", "Singular", "Fem", "tesse"],
- ["SseClass", "Plural", "Common", "kesse"],
- ["aClass", "Singular", "Masc", "koʔa"],
- ["aClass", "Singular", "Fem", "teʔa"],
- ["aClass", "Plural", "Common", "keʔa"]]
-},
-{
-"label": "tsamakko-PDem",
-"note": "Sa05t27",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "Demonstrative"},
-"terms":  
-[["deixis", "number", "gender", "token"],
- ["Distal", "Singular", "Masc", "kotta"],
- ["Distal", "Singular", "Fem", "tetta"],
- ["Distal", "Plural", "Common", "ketta"],
- ["Distal2", "Common", "Common", "kussa"],
- ["Proximal", "Singular", "Masc", "kutta"],
- ["Proximal", "Singular", "Fem", "titta"],
- ["Proximal", "Plural", "Common", "kitta"],
- ["Proximal2", "Singular", "Masc", "kusi"],
- ["Proximal2", "Singular", "Fem", "tisi"],
- ["Proximal2", "Plural", "Common", "kisi"]]
-},
-{
-"label": "tsamakko-PInd",
-"note": "Sa05t19;25 ::  Note also Table 22:Haplology in 1Pl dative pronoun:1Pl regular form is ʔine;cliticisation of =nnu gives *ʔine=nnu;reduction gives ʔi=nnu. Table 23 Syllabification of 1Sg,2SgM,and 2SgF dative pronouns:1sg *ʔee=nnu goes_to *ʔeen.nu goes_to ʔin.nu;2sg m *koo=nnu goes_to *koon.nu goes_to kun.nu;2sg f *kee=nnu goes_to *keen.nu goes_to kin.nu. Table 24:Syllabification of 1sg,2SgM,and 2SgF directive pronouns:1sg ʔee=ma goes_to ʔee.ma;2sg m koo=ma goes_to koo.ma;2sg f kee=ma goes_to kee.ma.",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "Independent"},
-"terms":  
-[["case", "number", "person", "gender", "token"],
- ["Comitative", "Singular", "Person1", "Common", "ʔee=ya"],
- ["Comitative", "Singular", "Person2", "Masc", "koo=ya"],
- ["Comitative", "Singular", "Person2", "Fem", "kee=ya"],
- ["Comitative", "Singular", "Person3", "Masc", "ʔufo=ya"],
- ["Comitative", "Singular", "Person3", "Fem", "ʔise=ya"],
- ["Comitative", "Plural", "Person1", "Common", "ʔine=ya"],
- ["Comitative", "Plural", "Person2", "Common", "kune=ya"],
- ["Comitative", "Plural", "Person3", "Common", "ʔufunɗe=ya"],
- ["Dative", "Singular", "Person1", "Common", "ʔi=nnu"],
- ["Dative", "Singular", "Person2", "Masc", "ku=nnu"],
- ["Dative", "Singular", "Person2", "Fem", "ki=nnu"],
- ["Dative", "Singular", "Person3", "Masc", "ʔufo=nu"],
- ["Dative", "Singular", "Person3", "Fem", "ʔise=nu"],
- ["Dative", "Plural", "Person1", "Common", "ʔi=nnu"],
- ["Dative", "Plural", "Person2", "Common", "kune=nu"],
- ["Dative", "Plural", "Person3", "Common", "ʔufunɗe=nu"],
- ["Directive", "Singular", "Person1", "Common", "ʔee=ma"],
- ["Directive", "Singular", "Person2", "Masc", "koo=ma"],
- ["Directive", "Singular", "Person2", "Fem", "kee=ma"],
- ["Directive", "Singular", "Person3", "Masc", "ʔuufp=ma"],
- ["Directive", "Singular", "Person3", "Fem", "ʔiise=ma"],
- ["Directive", "Plural", "Person1", "Common", "ʔiine=ma"],
- ["Directive", "Plural", "Person2", "Common", "kuune=ma"],
- ["Directive", "Plural", "Person3", "Common", "ʔuufunɗe=ma"],
- ["Locative", "Singular", "Person1", "Common", "ʔee=ta"],
- ["Locative", "Singular", "Person2", "Masc", "koo=ta"],
- ["Locative", "Singular", "Person2", "Fem", "kee=ta"],
- ["Locative", "Singular", "Person3", "Masc", "ʔufo=ta"],
- ["Locative", "Singular", "Person3", "Fem", "ʔise=ta"],
- ["Locative", "Plural", "Person1", "Common", "ʔine=ta"],
- ["Locative", "Plural", "Person2", "Common", "kune=ta"],
- ["Locative", "Plural", "Person3", "Common", "ʔufunɗe=ta"],
- ["Obj_ka", "Singular", "Person1", "Common", "ʔee=ka"],
- ["Obj_ka", "Singular", "Person2", "Masc", "koo=ka"],
- ["Obj_ka", "Singular", "Person2", "Fem", "kee=ka"],
- ["Obj_ka", "Singular", "Person3", "Masc", "ʔufo=ka"],
- ["Obj_ka", "Singular", "Person3", "Fem", "ʔise=ka"],
- ["Obj_ka", "Plural", "Person1", "Common", "ʔine=ka"],
- ["Obj_ka", "Plural", "Person2", "Common", "kune=ka"],
- ["Obj_ka", "Plural", "Person3", "Common", "ʔufunɗe=ka"],
- ["Object", "Singular", "Person1", "Common", "ʔee"],
- ["Object", "Singular", "Person2", "Masc", "koo"],
- ["Object", "Singular", "Person2", "Fem", "kee"],
- ["Object", "Singular", "Person3", "Masc", "ʔufo"],
- ["Object", "Singular", "Person3", "Fem", "ʔise"],
- ["Object", "Plural", "Person1", "Common", "ʔine"],
- ["Object", "Plural", "Person2", "Common", "kune"],
- ["Object", "Plural", "Person3", "Common", "ʔufunɗe"],
- ["Subject", "Singular", "Person1", "Common", "ʔano"],
- ["Subject", "Singular", "Person2", "Masc", "ʔato"],
- ["Subject", "Singular", "Person2", "Fem", "ʔato"],
- ["Subject", "Singular", "Person3", "Masc", "ʔufo"],
- ["Subject", "Singular", "Person3", "Fem", "ʔise"],
- ["Subject", "Plural", "Person1", "Common", "ʔine"],
- ["Subject", "Plural", "Person2", "Common", "ʔatunɗe"],
- ["Subject", "Plural", "Person3", "Common", "ʔufunɗe"]]
-},
-{
-"label": "tsamakko-PInterrDiff",
-"note": "Sa05t29;30;31 ::  interrGen = ‘whose?’;interrWh = ‘which?’;diff = ‘other’",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "InterrDiff"},
-"terms":  
-[["category", "number", "gender", "token"],
- ["Diff", "Singular", "Masc", "kuɓa"],
- ["InterrGen", "Singular", "Masc", "kahha"],
- ["InterrGen", "Singular", "Fem", "tahha"],
- ["InterrGen", "Singular", "Fem", "tinɗa"],
- ["InterrGen", "Singular", "Fem", "tiɓa"],
- ["InterrGen", "Plural", "Common", "kahha"],
- ["InterrGen", "Plural", "Common", "kinɗa"],
- ["InterrGen", "Plural", "Common", "kiɓa"],
- ["InterrWh", "Singular", "Masc", "kunɗa"]]
-},
-{
-"label": "tsamakko-PLoc",
-"note": "Sa05t32",
-"common": {"person": "Person3",
- "pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "LocativePro"},
-"terms":  
-[["case", "number", "gender", "token"],
- ["Comitative", "Singular", "Masc", "na=ya(y)"],
- ["Comitative", "Singular", "Fem", "na=ya(y)"],
- ["Comitative", "Plural", "Common", "na=ya(y)"],
- ["Dative", "Singular", "Masc", "nu=nnu"],
- ["Dative", "Singular", "Fem", "ni=nnu"],
- ["Dative", "Plural", "Common", "nu=nnu"],
- ["Directive", "Singular", "Masc", "naa=ma"],
- ["Directive", "Singular", "Fem", "naa=ma"],
- ["Directive", "Plural", "Common", "naa=ma"],
- ["Locative", "Singular", "Masc", "na=ta"],
- ["Locative", "Singular", "Fem", "na=ta"],
- ["Locative", "Plural", "Common", "na=ta"]]
-},
-{
-"label": "tsamakko-PPossInd",
-"note": "Sa05t",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "PossInd"},
-"terms":  
-[["genderHead", "numHead", "number", "person", "gender", "token"],
- ["HeadCommon", "HeadPlural", "Singular", "Person1", "Common", "kaayu"],
- ["HeadCommon", "HeadPlural", "Singular", "Person2", "Masc", "kaako"],
- ["HeadCommon", "HeadPlural", "Singular", "Person2", "Fem", "kaaki"],
- ["HeadCommon", "HeadPlural", "Singular", "Person3", "Masc", "kuusu"],
- ["HeadCommon", "HeadPlural", "Singular", "Person3", "Fem", "kiisi"],
- ["HeadCommon", "HeadPlural", "Plural", "Person1", "Common", "kaani"],
- ["HeadCommon", "HeadPlural", "Plural", "Person2", "Common", "kaakunɗe"],
- ["HeadCommon", "HeadPlural", "Plural", "Person3", "Common", "kuusunɗe"],
- ["HeadFem", "HeadSingular", "Singular", "Person1", "Common", "taayu"],
- ["HeadFem", "HeadSingular", "Singular", "Person2", "Masc", "taako"],
- ["HeadFem", "HeadSingular", "Singular", "Person2", "Fem", "taaki"],
- ["HeadFem", "HeadSingular", "Singular", "Person3", "Masc", "tuusu"],
- ["HeadFem", "HeadSingular", "Singular", "Person3", "Fem", "tiisi"],
- ["HeadFem", "HeadSingular", "Plural", "Person1", "Common", "taani"],
- ["HeadFem", "HeadSingular", "Plural", "Person2", "Common", "taakunɗe"],
- ["HeadFem", "HeadSingular", "Plural", "Person3", "Common", "tuusunɗe"],
- ["HeadMasc", "HeadSingular", "Singular", "Person1", "Common", "kaayu"],
- ["HeadMasc", "HeadSingular", "Singular", "Person2", "Masc", "kaako"],
- ["HeadMasc", "HeadSingular", "Singular", "Person2", "Fem", "kaaki"],
- ["HeadMasc", "HeadSingular", "Singular", "Person3", "Masc", "kuusu"],
- ["HeadMasc", "HeadSingular", "Singular", "Person3", "Fem", "kiisi"],
- ["HeadMasc", "HeadSingular", "Plural", "Person1", "Common", "kaani"],
- ["HeadMasc", "HeadSingular", "Plural", "Person2", "Common", "kaakunɗe"],
- ["HeadMasc", "HeadSingular", "Plural", "Person3", "Common", "kuusunɗe"]]
-},
-{
-"label": "tsamakko-PPossSuff",
-"note": "Sa05t21",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "PossSuff"},
-"terms":  
-[["number", "person", "gender", "token"],
- ["Singular", "Person1", "Common", "-aayu"],
- ["Singular", "Person2", "Masc", "-aako"],
- ["Singular", "Person2", "Fem", "-aaki"],
- ["Singular", "Person3", "Masc", "-uusu"],
- ["Singular", "Person3", "Fem", "-iisi"],
- ["Plural", "Person1", "Common", "-aani"],
- ["Plural", "Person2", "Common", "-aakunɗe"],
- ["Plural", "Person3", "Common", "-uusunɗe"]]
-},
-{
-"label": "tsamakko-PProParticle",
-"note": "Sa05t20",
-"common": {"pmorphClass": "ProMorph",
- "pos": "Pronoun",
- "proClass": "ProParticle"},
-"terms":  
-[["number", "gender", "token"],
- ["Singular", "Masc", "ko / ku"],
- ["Singular", "Fem", "ke / ki"],
- ["Plural", "Common", "te / ti"]]
-},
-{
-"label": "tsamakko-VDervStemFormation",
-"note": "Sa05t44 :: Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om.",
-"common": {"pos": "Verb",
- "vmorphClass": "DervStemFormation"},
-"terms":  
-[["derivedClass", "derivedStem", "token"],
- ["Normal", "Causative1", "-as"],
- ["Normal", "Causative2", "-is"],
- ["Normal", "Generic", "⊤"],
- ["Normal", "Inceptive", "-aw"],
- ["Normal", "Middel", "-aɗ"],
- ["Normal", "Passive", "-am"],
- ["OAssim", "Causative1", "-os"],
- ["OAssim", "Causative2", "⊤"],
- ["OAssim", "Generic", "⊤"],
- ["OAssim", "Inceptive", "⊤"],
- ["OAssim", "Middel", "-oɗ"],
- ["OAssim", "Passive", "-om"],
- ["Verbaliser", "Causative1", "-as / -os"],
- ["Verbaliser", "Causative2", "⊤"],
- ["Verbaliser", "Generic", "-om"],
- ["Verbaliser", "Inceptive", "-aw"],
- ["Verbaliser", "Middel", "-aɗ / -oɗ"],
- ["Verbaliser", "Passive", "⊤"]]
-},
-{
-"label": "tsamakko-VProSuff",
-"note": "Sa05t37",
-"common": {"pos": "Verb",
- "vmorphClass": "ProSuff"},
-"terms":  
-[["suffixSet", "number", "person", "gender", "token"],
- ["SuffSet1", "Singular", "Person1", "Common", "-V"],
- ["SuffSet1", "Singular", "Person2", "Common", "-tV"],
- ["SuffSet1", "Singular", "Person3", "Masc", "-V"],
- ["SuffSet1", "Singular", "Person3", "Fem", "-tV"],
- ["SuffSet1", "Plural", "Person1", "Common", "-nV"],
- ["SuffSet1", "Plural", "Person2", "Common", "-te"],
- ["SuffSet1", "Plural", "Person3", "Common", "-e"],
- ["SuffSet2", "Singular", "Person1", "Common", "-V"],
- ["SuffSet2", "Singular", "Person2", "Common", "-Vy"],
- ["SuffSet2", "Singular", "Person3", "Masc", "-V"],
- ["SuffSet2", "Singular", "Person3", "Fem", "-Vy"],
- ["SuffSet2", "Plural", "Person1", "Common", "-Vnki"],
- ["SuffSet2", "Plural", "Person2", "Common", "-Vnku"],
- ["SuffSet2", "Plural", "Person3", "Common", "-Vnki"],
- ["SuffSet3", "Singular", "Person1", "Common", "-V"],
- ["SuffSet3", "Singular", "Person2", "Common", "-V"],
- ["SuffSet3", "Singular", "Person3", "Masc", "-V"],
- ["SuffSet3", "Singular", "Person3", "Fem", "-V"],
- ["SuffSet3", "Plural", "Person1", "Common", "-Vnki"],
- ["SuffSet3", "Plural", "Person2", "Common", "-Vnku"],
- ["SuffSet3", "Plural", "Person3", "Common", "-Vnki"],
- ["SuffSet4", "Singular", "Person1", "Common", "⊤"],
- ["SuffSet4", "Singular", "Person2", "Common", "-áy"],
- ["SuffSet4", "Singular", "Person3", "Masc", "⊤"],
- ["SuffSet4", "Singular", "Person3", "Fem", "⊤"],
- ["SuffSet4", "Plural", "Person1", "Common", "-ánki"],
- ["SuffSet4", "Plural", "Person2", "Common", "-ánku"],
- ["SuffSet4", "Plural", "Person3", "Common", "-ínki"],
- ["SuffSet5", "Singular", "Person1", "Common", "⊤"],
- ["SuffSet5", "Singular", "Person2", "Common", "-áy"],
- ["SuffSet5", "Singular", "Person3", "Masc", "⊤"],
- ["SuffSet5", "Singular", "Person3", "Fem", "-áy"],
- ["SuffSet5", "Plural", "Person1", "Common", "-úmma"],
- ["SuffSet5", "Plural", "Person2", "Common", "-úmma"],
- ["SuffSet5", "Plural", "Person3", "Common", "-úmma"]]
-},
-{
-"label": "tsamakko-VSubjMarkers",
-"note": "Sa05t43",
-"common": {"pos": "Verb",
- "vmorphClass": "SubjMarkers"},
-"terms":  
-[["conjClass", "polarity", "suffixSet", "tam", "token"],
- ["Common", "Common", "SuffSet1", "Jussive", "-(t/n)-á"],
- ["Common", "Common", "SuffSet1", "Jussive", "⊤"],
- ["Common", "Common", "SuffSet2", "Future", "-na(y~-nki~nku)"],
- ["Common", "Common", "SuffSet2", "Imperfect", "-a(y~-nki~nku)"],
- ["Common", "Common", "SuffSet5", "Imperfect", "-a(y)"],
- ["Common", "Common", "SuffSet5", "Imperfect", "-umma"],
- ["Common", "Negative", "SuffSet1", "Future", "-(i)n(t/n)-í"],
- ["Common", "Negative", "SuffSet1", "Future", "-(i)n(t)-é"],
- ["Common", "Negative", "SuffSet1", "Past", "-(t/n)í"],
- ["Common", "Negative", "SuffSet1", "Past", "-(t)é"],
- ["Common", "Negative", "SuffSet3", "Jussive", "-ú(nkí~nkú)"],
- ["Common", "Negative", "SuffSet3", "Past", "-á(nkí~nkú)"],
- ["Common", "Subordinate", "SuffSet1", "Future", "-(i)n(t/n)-i"],
- ["Common", "Subordinate", "SuffSet1", "Future", "-(i)n(t)-e"],
- ["ConjA", "Common", "SuffSet1", "Aorist", "-(t/n)i"],
- ["ConjA", "Common", "SuffSet1", "Aorist", "-(t)e"],
- ["ConjA", "Common", "SuffSet4", "Consecutive", "-á~-ú~-í(y~nkì~nkù)"],
- ["ConjB", "Common", "SuffSet1", "Aorist", "-(t/n)í"],
- ["ConjB", "Common", "SuffSet1", "Aorist", "-(t)e"],
- ["ConjB", "Common", "SuffSet2", "Consecutive", "-ó(y~nki~nku)"]]
-},
-{
-"label": "tsamakko-VTenseSuffSets",
-"note": "Sa05t38-42 :: Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp.149f. See Sava,pp.158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative.",
-"common": {"pos": "Verb",
- "vmorphClass": "TenseSuffSets"},
-"terms":  
-[["conjClass", "polarity", "suffixSet", "tam", "number", "person", "gender", "token"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Singular", "Person1", "Common", "⊤"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Singular", "Person2", "Common", "_NULL"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Singular", "Person3", "Masc", "⊤"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Singular", "Person3", "Fem", "-tá"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Plural", "Person1", "Common", "-ná"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Plural", "Person2", "Common", "_NULL"],
- ["Common", "Affirmative", "SuffSet1", "Jussive", "Plural", "Person3", "Common", "⊤"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Singular", "Person1", "Common", "-na"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Singular", "Person2", "Common", "-nay"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Singular", "Person3", "Masc", "-na"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Singular", "Person3", "Fem", "-nay"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Plural", "Person1", "Common", "-nanki"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Plural", "Person2", "Common", "-nanku"],
- ["Common", "Affirmative", "SuffSet2", "Future", "Plural", "Person3", "Common", "-nanki"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Singular", "Person1", "Common", "-a"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Singular", "Person2", "Common", "-ay"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Singular", "Person3", "Masc", "-a"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Singular", "Person3", "Fem", "-ay"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Plural", "Person1", "Common", "-anki"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Plural", "Person2", "Common", "-anku"],
- ["Common", "Affirmative", "SuffSet2", "Imperfect", "Plural", "Person3", "Common", "-anki"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Singular", "Person1", "Common", "⊤"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Singular", "Person2", "Common", "-áy"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Singular", "Person3", "Masc", "⊤"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Singular", "Person3", "Fem", "-áy"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Plural", "Person1", "Common", "-úmma"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Plural", "Person2", "Common", "-úmma"],
- ["Common", "Affirmative", "SuffSet5", "Imperfect", "Plural", "Person3", "Common", "-úmma"],
- ["Common", "Negative", "SuffSet1", "Future", "Singular", "Person1", "Common", "-ní"],
- ["Common", "Negative", "SuffSet1", "Future", "Singular", "Person2", "Common", "-intí"],
- ["Common", "Negative", "SuffSet1", "Future", "Singular", "Person3", "Masc", "-ní"],
- ["Common", "Negative", "SuffSet1", "Future", "Singular", "Person3", "Fem", "-intí"],
- ["Common", "Negative", "SuffSet1", "Future", "Plural", "Person1", "Common", "-inní"],
- ["Common", "Negative", "SuffSet1", "Future", "Plural", "Person2", "Common", "-inté"],
- ["Common", "Negative", "SuffSet1", "Future", "Plural", "Person3", "Common", "-né"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Singular", "Person1", "Common", "⊤"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Singular", "Person2", "Common", "-tí"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Singular", "Person3", "Masc", "⊤"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Singular", "Person3", "Fem", "-tí"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Plural", "Person1", "Common", "-ní"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Plural", "Person2", "Common", "-té"],
- ["Common", "Negative", "SuffSet1", "NonPast", "Plural", "Person3", "Common", "⊤"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Singular", "Person1", "Common", "⊤"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Singular", "Person2", "Common", "⊤"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Singular", "Person3", "Masc", "⊤"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Singular", "Person3", "Fem", "⊤"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Plural", "Person1", "Common", "-únkí"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Plural", "Person2", "Common", "-únkú"],
- ["Common", "Negative", "SuffSet3", "Jussive", "Plural", "Person3", "Common", "-únkí"],
- ["Common", "Negative", "SuffSet3", "Past", "Singular", "Person1", "Common", "⊤"],
- ["Common", "Negative", "SuffSet3", "Past", "Singular", "Person2", "Common", "⊤"],
- ["Common", "Negative", "SuffSet3", "Past", "Singular", "Person3", "Masc", "⊤"],
- ["Common", "Negative", "SuffSet3", "Past", "Singular", "Person3", "Fem", "⊤"],
- ["Common", "Negative", "SuffSet3", "Past", "Plural", "Person1", "Common", "-ánkí"],
- ["Common", "Negative", "SuffSet3", "Past", "Plural", "Person2", "Common", "-ánkú"],
- ["Common", "Negative", "SuffSet3", "Past", "Plural", "Person3", "Common", "-ánkí"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Singular", "Person1", "Common", "-ni"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Singular", "Person2", "Common", "-inti"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Singular", "Person3", "Masc", "-ni"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Singular", "Person3", "Fem", "-inti"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Plural", "Person1", "Common", "-inni"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Plural", "Person2", "Common", "-inte"],
- ["Common", "Subordinate", "SuffSet1", "Future", "Plural", "Person3", "Common", "-ne"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person1", "Common", "⊤"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person2", "Common", "-tí"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person3", "Masc", "⊤"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person3", "Fem", "-tí"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Plural", "Person1", "Common", "-ní"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Plural", "Person2", "Common", "-te"],
- ["ConjA", "Affirmative", "SuffSet1", "Aorist", "Plural", "Person3", "Common", "-e"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Singular", "Person1", "Common", "⊤"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Singular", "Person2", "Common", "-áy"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Singular", "Person3", "Masc", "⊤"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Singular", "Person3", "Fem", "⊤"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Plural", "Person1", "Common", "-ánki"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Plural", "Person2", "Common", "-ánku"],
- ["ConjA", "Affirmative", "SuffSet4", "Consecutive", "Plural", "Person3", "Common", "-ínki"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person1", "Common", "-i"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person2", "Common", "-ti"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person3", "Masc", "-i"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Singular", "Person3", "Fem", "-ti"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Plural", "Person1", "Common", "-ni"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Plural", "Person2", "Common", "-te"],
- ["ConjB", "Affirmative", "SuffSet1", "Aorist", "Plural", "Person3", "Common", "-e"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Singular", "Person1", "Common", "⊤"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Singular", "Person2", "Common", "-óy"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Singular", "Person3", "Masc", "⊤"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Singular", "Person3", "Fem", "-óy"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Plural", "Person1", "Common", "-ónki"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Plural", "Person2", "Common", "-ónku"],
- ["ConjB", "Affirmative", "SuffSet2", "Consecutive", "Plural", "Person3", "Common", "-ónki"]]
-}]
-}
+  {
+    "label": "tsm-PronounIndependent",
+    "note": "Sa05t19;25 ::  Note also Table 22:Haplology in 1Pl dative pronoun:1Pl regular form is ʔine;cliticisation of =nnu gives *ʔine=nnu;reduction gives ʔi=nnu. Table 23 Syllabification of 1Sg,2SgM,and 2SgF dative pronouns:1sg *ʔee=nnu goes_to *ʔeen.nu goes_to ʔin.nu;2sg m *koo=nnu goes_to *koon.nu goes_to kun.nu;2sg f *kee=nnu goes_to *keen.nu goes_to kin.nu. Table 24:Syllabification of 1sg,2SgM,and 2SgF directive pronouns:1sg ʔee=ma goes_to ʔee.ma;2sg m koo=ma goes_to koo.ma;2sg f kee=ma goes_to kee.ma.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent"
+    },
+    "terms": [
+      ["case" ,"number" ,"person" ,"gender" ,"token"],
+      ["Comitative" ,"Singular" ,"Person1" ,"Common" ,"ʔee=ya"],
+      ["Comitative" ,"Singular" ,"Person2" ,"Masc" ,"koo=ya"],
+      ["Comitative" ,"Singular" ,"Person2" ,"Fem" ,"kee=ya"],
+      ["Comitative" ,"Singular" ,"Person3" ,"Masc" ,"ʔufo=ya"],
+      ["Comitative" ,"Singular" ,"Person3" ,"Fem" ,"ʔise=ya"],
+      ["Comitative" ,"Plural" ,"Person1" ,"Common" ,"ʔine=ya"],
+      ["Comitative" ,"Plural" ,"Person2" ,"Common" ,"kune=ya"],
+      ["Comitative" ,"Plural" ,"Person3" ,"Common" ,"ʔufunɗe=ya"],
+      ["Dative" ,"Singular" ,"Person1" ,"Common" ,"ʔi=nnu"],
+      ["Dative" ,"Singular" ,"Person2" ,"Masc" ,"ku=nnu"],
+      ["Dative" ,"Singular" ,"Person2" ,"Fem" ,"ki=nnu"],
+      ["Dative" ,"Singular" ,"Person3" ,"Masc" ,"ʔufo=nu"],
+      ["Dative" ,"Singular" ,"Person3" ,"Fem" ,"ʔise=nu"],
+      ["Dative" ,"Plural" ,"Person1" ,"Common" ,"ʔi=nnu"],
+      ["Dative" ,"Plural" ,"Person2" ,"Common" ,"kune=nu"],
+      ["Dative" ,"Plural" ,"Person3" ,"Common" ,"ʔufunɗe=nu"],
+      ["Directive" ,"Singular" ,"Person1" ,"Common" ,"ʔee=ma"],
+      ["Directive" ,"Singular" ,"Person2" ,"Masc" ,"koo=ma"],
+      ["Directive" ,"Singular" ,"Person2" ,"Fem" ,"kee=ma"],
+      ["Directive" ,"Singular" ,"Person3" ,"Masc" ,"ʔuufp=ma"],
+      ["Directive" ,"Singular" ,"Person3" ,"Fem" ,"ʔiise=ma"],
+      ["Directive" ,"Plural" ,"Person1" ,"Common" ,"ʔiine=ma"],
+      ["Directive" ,"Plural" ,"Person2" ,"Common" ,"kuune=ma"],
+      ["Directive" ,"Plural" ,"Person3" ,"Common" ,"ʔuufunɗe=ma"],
+      ["Locative" ,"Singular" ,"Person1" ,"Common" ,"ʔee=ta"],
+      ["Locative" ,"Singular" ,"Person2" ,"Masc" ,"koo=ta"],
+      ["Locative" ,"Singular" ,"Person2" ,"Fem" ,"kee=ta"],
+      ["Locative" ,"Singular" ,"Person3" ,"Masc" ,"ʔufo=ta"],
+      ["Locative" ,"Singular" ,"Person3" ,"Fem" ,"ʔise=ta"],
+      ["Locative" ,"Plural" ,"Person1" ,"Common" ,"ʔine=ta"],
+      ["Locative" ,"Plural" ,"Person2" ,"Common" ,"kune=ta"],
+      ["Locative" ,"Plural" ,"Person3" ,"Common" ,"ʔufunɗe=ta"],
+      ["Obj_ka" ,"Singular" ,"Person1" ,"Common" ,"ʔee=ka"],
+      ["Obj_ka" ,"Singular" ,"Person2" ,"Masc" ,"koo=ka"],
+      ["Obj_ka" ,"Singular" ,"Person2" ,"Fem" ,"kee=ka"],
+      ["Obj_ka" ,"Singular" ,"Person3" ,"Masc" ,"ʔufo=ka"],
+      ["Obj_ka" ,"Singular" ,"Person3" ,"Fem" ,"ʔise=ka"],
+      ["Obj_ka" ,"Plural" ,"Person1" ,"Common" ,"ʔine=ka"],
+      ["Obj_ka" ,"Plural" ,"Person2" ,"Common" ,"kune=ka"],
+      ["Obj_ka" ,"Plural" ,"Person3" ,"Common" ,"ʔufunɗe=ka"],
+      ["Object" ,"Singular" ,"Person1" ,"Common" ,"ʔee"],
+      ["Object" ,"Singular" ,"Person2" ,"Masc" ,"koo"],
+      ["Object" ,"Singular" ,"Person2" ,"Fem" ,"kee"],
+      ["Object" ,"Singular" ,"Person3" ,"Masc" ,"ʔufo"],
+      ["Object" ,"Singular" ,"Person3" ,"Fem" ,"ʔise"],
+      ["Object" ,"Plural" ,"Person1" ,"Common" ,"ʔine"],
+      ["Object" ,"Plural" ,"Person2" ,"Common" ,"kune"],
+      ["Object" ,"Plural" ,"Person3" ,"Common" ,"ʔufunɗe"],
+      ["Subject" ,"Singular" ,"Person1" ,"Common" ,"ʔano"],
+      ["Subject" ,"Singular" ,"Person2" ,"Masc" ,"ʔato"],
+      ["Subject" ,"Singular" ,"Person2" ,"Fem" ,"ʔato"],
+      ["Subject" ,"Singular" ,"Person3" ,"Masc" ,"ʔufo"],
+      ["Subject" ,"Singular" ,"Person3" ,"Fem" ,"ʔise"],
+      ["Subject" ,"Plural" ,"Person1" ,"Common" ,"ʔine"],
+      ["Subject" ,"Plural" ,"Person2" ,"Common" ,"ʔatunɗe"],
+      ["Subject" ,"Plural" ,"Person3" ,"Common" ,"ʔufunɗe"]
+    ]
+  },
+  {
+    "label": "tsm-PronounInterrDiff",
+    "note": "Sa05t29;30;31 ::  interrGen = ‘whose?’;interrWh = ‘which?’;diff = ‘other’",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "InterrDiff"
+    },
+    "terms": [
+      ["category" ,"number" ,"gender" ,"token"],
+      ["Diff" ,"Singular" ,"Masc" ,"kuɓa"],
+      ["InterrGen" ,"Singular" ,"Masc" ,"kahha"],
+      ["InterrGen" ,"Singular" ,"Fem" ,"tahha"],
+      ["InterrGen" ,"Singular" ,"Fem" ,"tinɗa"],
+      ["InterrGen" ,"Singular" ,"Fem" ,"tiɓa"],
+      ["InterrGen" ,"Plural" ,"Common" ,"kahha"],
+      ["InterrGen" ,"Plural" ,"Common" ,"kinɗa"],
+      ["InterrGen" ,"Plural" ,"Common" ,"kiɓa"],
+      ["InterrWh" ,"Singular" ,"Masc" ,"kunɗa"]
+    ]
+  },
+  {
+    "label": "tsm-PronounLocativePro",
+    "note": "Sa05t32",
+    "common": {
+      "person": "Person3",
+      "pos": "Pronoun",
+      "proClass": "LocativePro"
+    },
+    "terms": [
+      ["case" ,"number" ,"gender" ,"token"],
+      ["Comitative" ,"Singular" ,"Masc" ,"na=ya(y)"],
+      ["Comitative" ,"Singular" ,"Fem" ,"na=ya(y)"],
+      ["Comitative" ,"Plural" ,"Common" ,"na=ya(y)"],
+      ["Dative" ,"Singular" ,"Masc" ,"nu=nnu"],
+      ["Dative" ,"Singular" ,"Fem" ,"ni=nnu"],
+      ["Dative" ,"Plural" ,"Common" ,"nu=nnu"],
+      ["Directive" ,"Singular" ,"Masc" ,"naa=ma"],
+      ["Directive" ,"Singular" ,"Fem" ,"naa=ma"],
+      ["Directive" ,"Plural" ,"Common" ,"naa=ma"],
+      ["Locative" ,"Singular" ,"Masc" ,"na=ta"],
+      ["Locative" ,"Singular" ,"Fem" ,"na=ta"],
+      ["Locative" ,"Plural" ,"Common" ,"na=ta"]
+    ]
+  },
+  {
+    "label": "tsm-PronounPossInd",
+    "note": "Sa05t",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossInd"
+    },
+    "terms": [
+      ["genderHead" ,"numHead" ,"number" ,"person" ,"gender" ,"token"],
+      ["HeadCommon" ,"HeadPlural" ,"Singular" ,"Person1" ,"Common" ,"kaayu"],
+      ["HeadCommon" ,"HeadPlural" ,"Singular" ,"Person2" ,"Masc" ,"kaako"],
+      ["HeadCommon" ,"HeadPlural" ,"Singular" ,"Person2" ,"Fem" ,"kaaki"],
+      ["HeadCommon" ,"HeadPlural" ,"Singular" ,"Person3" ,"Masc" ,"kuusu"],
+      ["HeadCommon" ,"HeadPlural" ,"Singular" ,"Person3" ,"Fem" ,"kiisi"],
+      ["HeadCommon" ,"HeadPlural" ,"Plural" ,"Person1" ,"Common" ,"kaani"],
+      ["HeadCommon" ,"HeadPlural" ,"Plural" ,"Person2" ,"Common" ,"kaakunɗe"],
+      ["HeadCommon" ,"HeadPlural" ,"Plural" ,"Person3" ,"Common" ,"kuusunɗe"],
+      ["HeadFem" ,"HeadSingular" ,"Singular" ,"Person1" ,"Common" ,"taayu"],
+      ["HeadFem" ,"HeadSingular" ,"Singular" ,"Person2" ,"Masc" ,"taako"],
+      ["HeadFem" ,"HeadSingular" ,"Singular" ,"Person2" ,"Fem" ,"taaki"],
+      ["HeadFem" ,"HeadSingular" ,"Singular" ,"Person3" ,"Masc" ,"tuusu"],
+      ["HeadFem" ,"HeadSingular" ,"Singular" ,"Person3" ,"Fem" ,"tiisi"],
+      ["HeadFem" ,"HeadSingular" ,"Plural" ,"Person1" ,"Common" ,"taani"],
+      ["HeadFem" ,"HeadSingular" ,"Plural" ,"Person2" ,"Common" ,"taakunɗe"],
+      ["HeadFem" ,"HeadSingular" ,"Plural" ,"Person3" ,"Common" ,"tuusunɗe"],
+      ["HeadMasc" ,"HeadSingular" ,"Singular" ,"Person1" ,"Common" ,"kaayu"],
+      ["HeadMasc" ,"HeadSingular" ,"Singular" ,"Person2" ,"Masc" ,"kaako"],
+      ["HeadMasc" ,"HeadSingular" ,"Singular" ,"Person2" ,"Fem" ,"kaaki"],
+      ["HeadMasc" ,"HeadSingular" ,"Singular" ,"Person3" ,"Masc" ,"kuusu"],
+      ["HeadMasc" ,"HeadSingular" ,"Singular" ,"Person3" ,"Fem" ,"kiisi"],
+      ["HeadMasc" ,"HeadSingular" ,"Plural" ,"Person1" ,"Common" ,"kaani"],
+      ["HeadMasc" ,"HeadSingular" ,"Plural" ,"Person2" ,"Common" ,"kaakunɗe"],
+      ["HeadMasc" ,"HeadSingular" ,"Plural" ,"Person3" ,"Common" ,"kuusunɗe"]
+    ]
+  },
+  {
+    "label": "tsm-PronounPossSuff",
+    "note": "Sa05t21",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "PossSuff"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-aayu"],
+      ["Singular" ,"Person2" ,"Masc" ,"-aako"],
+      ["Singular" ,"Person2" ,"Fem" ,"-aaki"],
+      ["Singular" ,"Person3" ,"Masc" ,"-uusu"],
+      ["Singular" ,"Person3" ,"Fem" ,"-iisi"],
+      ["Plural" ,"Person1" ,"Common" ,"-aani"],
+      ["Plural" ,"Person2" ,"Common" ,"-aakunɗe"],
+      ["Plural" ,"Person3" ,"Common" ,"-uusunɗe"]
+    ]
+  },
+  {
+    "label": "tsm-PronounProParticle",
+    "note": "Sa05t20",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "ProParticle"
+    },
+    "terms": [
+      ["number" ,"gender" ,"token"],
+      ["Singular" ,"Masc" ,"ko / ku"],
+      ["Singular" ,"Fem" ,"ke / ki"],
+      ["Plural" ,"Common" ,"te / ti"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjA-ug-Aorist",
+    "note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-í"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-dí*"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-dí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-de"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjA-ug-Imperative",
+    "note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕug-á"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-í"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-dí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-dí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-de"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-á"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-áy"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-í"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-ínki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-na"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕug-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕug-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕug-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕug-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕug-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕug-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕug-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕug-á"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-a"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-ánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕug-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕug-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕug-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕug-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕug-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) ʕúg-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) ʕúg-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) ʕúg-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) ʕúg-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu) ʕúg-únkí"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) ʕúg-únkú"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) ʕúg-únkí"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-í"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-dí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-dí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-dé"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC-ug-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúgg-á"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúgg-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúgg-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúgg-á"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúgg-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúgg-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúgg-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábaʔ-í"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábaʔ-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábaʔ-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábaʔ-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábaʔ-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábaʔ-te"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábaʔ-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábáʔ-á"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábáʔ-áy"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábáʔ-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábáʔ-í"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábáʔ-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábáʔ-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábáʔ-ónki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábaʔ-na"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábaʔ-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábaʔ-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábaʔ-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábaʔ-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábaʔ-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábaʔ-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’abaʔ-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"q’abaʔ-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’abaʔ-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’abaʔ-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"q’abaʔ-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"q’abaʔ-íntí"],
+      ["Plural" ,"Person3" ,"Common" ,"q’abaʔ-ní"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábaʔ-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábaʔ-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábaʔ-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábaʔ-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábaʔ-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábaʔ-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábaʔ-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábáʔ"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábáʔ-á"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábaʔ-a"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábaʔ-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábaʔ-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábaʔ-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábaʔ-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábaʔ-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábaʔ-ánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’abaʔ-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’abaʔ-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’abaʔ-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"q’abaʔ-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"q’abaʔ-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) q’ábáʔ-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) q’ábáʔ-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) q’ábáʔ-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) q’ábáʔ-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu) q’ábáʔ-únki"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) q’ábáʔ-únku"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) q’ábáʔ-únki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábáʔ-í"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábáʔ-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábáʔ-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábáʔ-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábáʔ-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábáʔ-té"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábáʔ-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVCVC-qaba-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "qaba",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"q’ábáʔʔ-á"],
+      ["Singular" ,"Person2" ,"Common" ,"q’ábáʔʔ-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"q’ábáʔʔ-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"q’ábáʔʔ-á"],
+      ["Plural" ,"Person1" ,"Common" ,"q’ábáʔʔ-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"q’ábáʔʔ-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"q’ábáʔʔ-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-í"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-te"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-á"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís-áy"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-í"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís -ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-ís-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-ínki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-na"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-ís-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-is-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-is-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-is-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-is-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-is-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-is-íntí"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-is-ní"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-ís-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-ís-á"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-a"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-ís-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-ánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) káʔ-ís-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) káʔ-ís-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) káʔ-ís-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) káʔ-ís-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu) káʔ-ís-únki"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) káʔ-ís-únku"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) káʔ-ís-únki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔ-ís-í"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔ-ís-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔ-ís-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔ-ís-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔ-ís-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔ-ís-té"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔ-ís-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVC_VC-kais-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "kais",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"káʔʔ-ís-á"],
+      ["Singular" ,"Person2" ,"Common" ,"káʔʔ-ís-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"káʔʔ-ís-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"káʔʔ-ís-á"],
+      ["Plural" ,"Person1" ,"Common" ,"káʔʔ-ís-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"káʔʔ-ís-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"káʔʔ-ís-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-í"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-te"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-á"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-áy"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-í"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-nki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-na"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-á"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-a"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-ánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) óóy-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) óóy-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) óóy-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) óóy-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu) óóy-únkí"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) óóy-únkú"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) óóy-únkí"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóy-í"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóy-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóy-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóy-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóy-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóy-té"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóy-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjACVVC-ooy-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ooy",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔóóyy-á"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔóóyy-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔóóyy-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔóóyy-á"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔóóyy-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔóóyy-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔóóyy-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjB-zi-Aorist",
+    "note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "pos": "Verb",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"zíʔ-i"],
+      ["Singular" ,"Person2" ,"Common" ,"zíʔ-ti"],
+      ["Singular" ,"Person3" ,"Masc" ,"zíʔ-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"ziʔ-ti"],
+      ["Plural" ,"Person1" ,"Common" ,"zíʔ-ni"],
+      ["Plural" ,"Person2" ,"Common" ,"zíʔ-te"],
+      ["Plural" ,"Person3" ,"Common" ,"zíʔ-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjB-zi-Consecutive",
+    "note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "pos": "Verb",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"zíʔ-ó"],
+      ["Singular" ,"Person2" ,"Common" ,"zíʔ-óy"],
+      ["Singular" ,"Person3" ,"Masc" ,"zíʔ-ó"],
+      ["Singular" ,"Person3" ,"Fem" ,"zíʔ-óy"],
+      ["Plural" ,"Person1" ,"Common" ,"zíʔ-ónki"],
+      ["Plural" ,"Person2" ,"Common" ,"zíʔ-ónku"],
+      ["Plural" ,"Person3" ,"Common" ,"zíʔ-ónki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjB-zi-Imperative",
+    "note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "pos": "Verb",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ziʔ-á"],
+      ["Plural" ,"Person2" ,"Common" ,"ziʔ-inɗá"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-i"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-ti"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-ti"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-ni"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-te"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-ó"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-óy"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-ó"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-óy"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-ónki"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-ónku"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-ónki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-na"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-á"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-ínɗá"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-a"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-anki"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-anku"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-anki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) žíʔ-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) žíʔ-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) žíʔ-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) žíʔ-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu)žíʔ-únkí"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) žíʔ-únkú"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) žíʔ-únkí"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔ-í"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔ-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔ-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔ-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔ-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔ-té"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔ-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC-zi-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zi",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žíʔʔ-á"],
+      ["Singular" ,"Person2" ,"Common" ,"žíʔʔ-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"žíʔʔ-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"žíʔʔ-á"],
+      ["Plural" ,"Person1" ,"Common" ,"žíʔʔ-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"žíʔʔ-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"žíʔʔ-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-i"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-ti"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-ti"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-i"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-ni"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-te"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-ó"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-óy"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-ó"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-óy"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-ónki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-ónku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-ónki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-na"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-íntí"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-ní"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-á"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-inɗá"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-a"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-ánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) ʔábún-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) ʔábún-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) ʔábún-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) ʔábún-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu) ʔábún-únki"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) ʔábún-únku"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) ʔábún-únki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábún-í"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábún-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábún-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábún-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábún-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábún-té"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábún-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVCVC-abun-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "abun",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVCVC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʔábúnn-á"],
+      ["Singular" ,"Person2" ,"Common" ,"ʔábúnn-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʔábúnn-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʔábúnn-á"],
+      ["Plural" ,"Person1" ,"Common" ,"ʔábúnn-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"ʔábúnn-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"ʔábúnn-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq-ám-i"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq-ám-ti"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq-ám-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq-ám-ti"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq-ám-ni"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq-ám-te"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq-ám-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq’-ám-ó"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq’-ám-óy"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq’-ám-ó"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq’-ám-óy"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq’-ám-ónki"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq’-ám-ónku"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq’-ám-ónki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq-ám-na"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq-ám-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq-ám-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq-ám -nay"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq-ám-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq-ám-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq-ám-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žoq’-am-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"žoq’-am-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"žoq’-am-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"žoq’-am-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"žoq’-am-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"žoq’-am-íntí"],
+      ["Plural" ,"Person3" ,"Common" ,"žoq’-am-ní"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq-ám-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq-ám-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq-ám-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq-ám-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq-ám-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq-ám-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq-ám-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq’-ám-á"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq’-ám-ínɗá"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq-ám-a"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq-ám-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq-ám-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq-ám-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq-ám-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq-ám-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq-ám-ánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žoq’-am-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"žoq’-am-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"žoq’-am-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"žoq’-am-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"žoq’-am-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq’-ám-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq’-ám-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq’-ám-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq’-ám-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq’-ám-únki"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq’-ám-únku"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq’-ám-únki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq’-ám-í"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq’-ám-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq’-ám-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq’-ám-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq’-ám-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq’-ám-té"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq’-ám-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVC_VC-zoq-am-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "zoq-am",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVC_VC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"žóq’-ám-á"],
+      ["Singular" ,"Person2" ,"Common" ,"žóq’-ám-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"žóq’-ám-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"žóq’-ám-á"],
+      ["Plural" ,"Person1" ,"Common" ,"žóq’-ám-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"žóq’-ám-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"žóq’-ám-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-AoristAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Aorist"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-i"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-ti"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-ti"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-ni"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-te"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-e"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-ConsecutiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Consecutive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-ó"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-óy"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-ó"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-óy"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-ónki"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-ónku"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-ónki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-FutureAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-na"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-nay"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-na"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-nay"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-nánki"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-nánku"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-nánki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-FutureNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-ínní"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-FutureSubordinate",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Subordinate",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Future"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-ní"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-íntí"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-ní"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-íntí"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-nínní"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-ínté"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-né"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-ImperativeAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Imperative"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-á"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-ínɗa"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-ImperfectAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Imperfect"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-a"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-ay"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-a"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-ay"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-anki"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód-anku"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-anki"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-JussiveAffirmative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Affirmative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-á"],
+      ["Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-ítá"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-ná"],
+      ["Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-JussiveNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Jussive"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"(ʔínnu) bóód-ú"],
+      ["Singular" ,"Person2" ,"Common" ,"(ʔínnu) bóód-ú"],
+      ["Singular" ,"Person3" ,"Masc" ,"(ʔínnu) bóód-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"(ʔínnu) bóód-ú"],
+      ["Plural" ,"Person1" ,"Common" ,"(ʔínnu) bóód-únkí"],
+      ["Plural" ,"Person2" ,"Common" ,"(ʔínnu) bóód-únkú"],
+      ["Plural" ,"Person3" ,"Common" ,"(ʔínnu) bóód-únkí"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-NonPastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "NonPast"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóód-í"],
+      ["Singular" ,"Person2" ,"Common" ,"bóód-tí"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóód-í"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóód-tí"],
+      ["Plural" ,"Person1" ,"Common" ,"bóód-ní"],
+      ["Plural" ,"Person2" ,"Common" ,"bóód -té"],
+      ["Plural" ,"Person3" ,"Common" ,"bóód-é"]
+    ]
+  },
+  {
+    "label": "tsm-VerbConjBCVVC-bod-PastNegative",
+    "note": "Sa05pp.166-170",
+    "common": {
+      "conjClass": "ConjB",
+      "lexeme": "bod",
+      "polarity": "Negative",
+      "pos": "Verb",
+      "stemShape": "CVVC",
+      "tam": "Past"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"bóódd-á"],
+      ["Singular" ,"Person2" ,"Common" ,"bóódd-á"],
+      ["Singular" ,"Person3" ,"Masc" ,"bóódd-á"],
+      ["Singular" ,"Person3" ,"Fem" ,"bóódd-á"],
+      ["Plural" ,"Person1" ,"Common" ,"bóódd-ánkí"],
+      ["Plural" ,"Person2" ,"Common" ,"bóódd-ánkú"],
+      ["Plural" ,"Person3" ,"Common" ,"bóódd-ánkú"]
+    ]
+  },
+  {
+    "label": "tsm-Verbmorph-ConjA_ConjBComparison-ConjA-ug-Consecutive",
+    "note": "Sa05t34;35;36 :: Here and in other paradigms,Sava’s “aorist” is noted as “aorist”. The A and B conjugations differ in the aorist,consecutive,and imprtv forms.",
+    "common": {
+      "conjClass": "ConjA",
+      "lexeme": "ug",
+      "pos": "Verb",
+      "tam": "Consecutive",
+      "morphClass": "ConjA_ConjBComparison"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ʕúg-á"],
+      ["Singular" ,"Person2" ,"Common" ,"ʕúg-áy"],
+      ["Singular" ,"Person3" ,"Masc" ,"ʕúg-ú"],
+      ["Singular" ,"Person3" ,"Fem" ,"ʕúg-í"],
+      ["Plural" ,"Person1" ,"Common" ,"ʕúg-ánki"],
+      ["Plural" ,"Person2" ,"Common" ,"ʕúg-ánku"],
+      ["Plural" ,"Person3" ,"Common" ,"ʕúg-ínki"]
+    ]
+  },
+  {
+    "label": "tsm-Verbmorph-DervStemFormation-",
+    "note": "Sa05t44 :: Table 45 gives the following rules for verbaliser-suffix + derv-suff:-aw +-as/-is goes_to -os;-aw +-aɗ goes_to -oɗ;-aw +-am goes_to -om.",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "DervStemFormation"
+    },
+    "terms": [
+      ["derivedClass" ,"derivedStem" ,"token"],
+      ["Normal" ,"Causative1" ,"-as"],
+      ["Normal" ,"Causative2" ,"-is"],
+      ["Normal" ,"Generic" ,"⊤"],
+      ["Normal" ,"Inceptive" ,"-aw"],
+      ["Normal" ,"Middel" ,"-aɗ"],
+      ["Normal" ,"Passive" ,"-am"],
+      ["OAssim" ,"Causative1" ,"-os"],
+      ["OAssim" ,"Causative2" ,"⊤"],
+      ["OAssim" ,"Generic" ,"⊤"],
+      ["OAssim" ,"Inceptive" ,"⊤"],
+      ["OAssim" ,"Middel" ,"-oɗ"],
+      ["OAssim" ,"Passive" ,"-om"],
+      ["Verbaliser" ,"Causative1" ,"-as / -os"],
+      ["Verbaliser" ,"Causative2" ,"⊤"],
+      ["Verbaliser" ,"Generic" ,"-om"],
+      ["Verbaliser" ,"Inceptive" ,"-aw"],
+      ["Verbaliser" ,"Middel" ,"-aɗ / -oɗ"],
+      ["Verbaliser" ,"Passive" ,"⊤"]
+    ]
+  },
+  {
+    "label": "tsm-Verbmorph-ProSuff-",
+    "note": "Sa05t37",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "ProSuff"
+    },
+    "terms": [
+      ["suffixSet" ,"number" ,"person" ,"gender" ,"token"],
+      ["SuffSet1" ,"Singular" ,"Person1" ,"Common" ,"-V"],
+      ["SuffSet1" ,"Singular" ,"Person2" ,"Common" ,"-tV"],
+      ["SuffSet1" ,"Singular" ,"Person3" ,"Masc" ,"-V"],
+      ["SuffSet1" ,"Singular" ,"Person3" ,"Fem" ,"-tV"],
+      ["SuffSet1" ,"Plural" ,"Person1" ,"Common" ,"-nV"],
+      ["SuffSet1" ,"Plural" ,"Person2" ,"Common" ,"-te"],
+      ["SuffSet1" ,"Plural" ,"Person3" ,"Common" ,"-e"],
+      ["SuffSet2" ,"Singular" ,"Person1" ,"Common" ,"-V"],
+      ["SuffSet2" ,"Singular" ,"Person2" ,"Common" ,"-Vy"],
+      ["SuffSet2" ,"Singular" ,"Person3" ,"Masc" ,"-V"],
+      ["SuffSet2" ,"Singular" ,"Person3" ,"Fem" ,"-Vy"],
+      ["SuffSet2" ,"Plural" ,"Person1" ,"Common" ,"-Vnki"],
+      ["SuffSet2" ,"Plural" ,"Person2" ,"Common" ,"-Vnku"],
+      ["SuffSet2" ,"Plural" ,"Person3" ,"Common" ,"-Vnki"],
+      ["SuffSet3" ,"Singular" ,"Person1" ,"Common" ,"-V"],
+      ["SuffSet3" ,"Singular" ,"Person2" ,"Common" ,"-V"],
+      ["SuffSet3" ,"Singular" ,"Person3" ,"Masc" ,"-V"],
+      ["SuffSet3" ,"Singular" ,"Person3" ,"Fem" ,"-V"],
+      ["SuffSet3" ,"Plural" ,"Person1" ,"Common" ,"-Vnki"],
+      ["SuffSet3" ,"Plural" ,"Person2" ,"Common" ,"-Vnku"],
+      ["SuffSet3" ,"Plural" ,"Person3" ,"Common" ,"-Vnki"],
+      ["SuffSet4" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["SuffSet4" ,"Singular" ,"Person2" ,"Common" ,"-áy"],
+      ["SuffSet4" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["SuffSet4" ,"Singular" ,"Person3" ,"Fem" ,"⊤"],
+      ["SuffSet4" ,"Plural" ,"Person1" ,"Common" ,"-ánki"],
+      ["SuffSet4" ,"Plural" ,"Person2" ,"Common" ,"-ánku"],
+      ["SuffSet4" ,"Plural" ,"Person3" ,"Common" ,"-ínki"],
+      ["SuffSet5" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["SuffSet5" ,"Singular" ,"Person2" ,"Common" ,"-áy"],
+      ["SuffSet5" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["SuffSet5" ,"Singular" ,"Person3" ,"Fem" ,"-áy"],
+      ["SuffSet5" ,"Plural" ,"Person1" ,"Common" ,"-úmma"],
+      ["SuffSet5" ,"Plural" ,"Person2" ,"Common" ,"-úmma"],
+      ["SuffSet5" ,"Plural" ,"Person3" ,"Common" ,"-úmma"]
+    ]
+  },
+  {
+    "label": "tsm-Verbmorph-SubjMarkers-",
+    "note": "Sa05t43",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "SubjMarkers"
+    },
+    "terms": [
+      ["conjClass" ,"polarity" ,"suffixSet" ,"tam" ,"token"],
+      ["Common" ,"Common" ,"SuffSet1" ,"Jussive" ,"-(t/n)-á"],
+      ["Common" ,"Common" ,"SuffSet1" ,"Jussive" ,"⊤"],
+      ["Common" ,"Common" ,"SuffSet2" ,"Future" ,"-na(y~-nki~nku)"],
+      ["Common" ,"Common" ,"SuffSet2" ,"Imperfect" ,"-a(y~-nki~nku)"],
+      ["Common" ,"Common" ,"SuffSet5" ,"Imperfect" ,"-a(y)"],
+      ["Common" ,"Common" ,"SuffSet5" ,"Imperfect" ,"-umma"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"-(i)n(t/n)-í"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"-(i)n(t)-é"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Past" ,"-(t/n)í"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Past" ,"-(t)é"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"-ú(nkí~nkú)"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"-á(nkí~nkú)"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"-(i)n(t/n)-i"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"-(i)n(t)-e"],
+      ["ConjA" ,"Common" ,"SuffSet1" ,"Aorist" ,"-(t/n)i"],
+      ["ConjA" ,"Common" ,"SuffSet1" ,"Aorist" ,"-(t)e"],
+      ["ConjA" ,"Common" ,"SuffSet4" ,"Consecutive" ,"-á~-ú~-í(y~nkì~nkù)"],
+      ["ConjB" ,"Common" ,"SuffSet1" ,"Aorist" ,"-(t/n)í"],
+      ["ConjB" ,"Common" ,"SuffSet1" ,"Aorist" ,"-(t)e"],
+      ["ConjB" ,"Common" ,"SuffSet2" ,"Consecutive" ,"-ó(y~nki~nku)"]
+    ]
+  },
+  {
+    "label": "tsm-Verbmorph-TenseSuffSets-",
+    "note": "Sa05t38-42 :: Sava2005,6.4.5,table 42. suffSet 5 = adjectival verbs denoting permanent states (color,size,permanent quality). Complete list,pp.149f. See Sava,pp.158-161 on category ‘sub’ (‘subordinate’ – here included as value of ‘pol’),occurring only with the future. ‘past’ and ‘nonPast’ occur only in the negative,and are formally related to the ‘imperf’ and ‘aorist’,respectively,of the affirmative.",
+    "common": {
+      "pos": "Verb",
+      "morphClass": "TenseSuffSets"
+    },
+    "terms": [
+      ["conjClass" ,"polarity" ,"suffixSet" ,"tam" ,"number" ,"person" ,"gender" ,"token"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Singular" ,"Person2" ,"Common" ,"_NULL"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Singular" ,"Person3" ,"Fem" ,"-tá"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Plural" ,"Person1" ,"Common" ,"-ná"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Plural" ,"Person2" ,"Common" ,"_NULL"],
+      ["Common" ,"Affirmative" ,"SuffSet1" ,"Jussive" ,"Plural" ,"Person3" ,"Common" ,"⊤"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Singular" ,"Person1" ,"Common" ,"-na"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Singular" ,"Person2" ,"Common" ,"-nay"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Singular" ,"Person3" ,"Masc" ,"-na"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Singular" ,"Person3" ,"Fem" ,"-nay"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Plural" ,"Person1" ,"Common" ,"-nanki"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Plural" ,"Person2" ,"Common" ,"-nanku"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Future" ,"Plural" ,"Person3" ,"Common" ,"-nanki"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"-a"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"-ay"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"-a"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"-ay"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"-anki"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"-anku"],
+      ["Common" ,"Affirmative" ,"SuffSet2" ,"Imperfect" ,"Plural" ,"Person3" ,"Common" ,"-anki"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Singular" ,"Person2" ,"Common" ,"-áy"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"-áy"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"-úmma"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"-úmma"],
+      ["Common" ,"Affirmative" ,"SuffSet5" ,"Imperfect" ,"Plural" ,"Person3" ,"Common" ,"-úmma"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Singular" ,"Person1" ,"Common" ,"-ní"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Singular" ,"Person2" ,"Common" ,"-intí"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Singular" ,"Person3" ,"Masc" ,"-ní"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Singular" ,"Person3" ,"Fem" ,"-intí"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Plural" ,"Person1" ,"Common" ,"-inní"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Plural" ,"Person2" ,"Common" ,"-inté"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"Future" ,"Plural" ,"Person3" ,"Common" ,"-né"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Singular" ,"Person2" ,"Common" ,"-tí"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Singular" ,"Person3" ,"Fem" ,"-tí"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Plural" ,"Person1" ,"Common" ,"-ní"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Plural" ,"Person2" ,"Common" ,"-té"],
+      ["Common" ,"Negative" ,"SuffSet1" ,"NonPast" ,"Plural" ,"Person3" ,"Common" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Singular" ,"Person2" ,"Common" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Singular" ,"Person3" ,"Fem" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Plural" ,"Person1" ,"Common" ,"-únkí"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Plural" ,"Person2" ,"Common" ,"-únkú"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Jussive" ,"Plural" ,"Person3" ,"Common" ,"-únkí"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Singular" ,"Person2" ,"Common" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Singular" ,"Person3" ,"Fem" ,"⊤"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Plural" ,"Person1" ,"Common" ,"-ánkí"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Plural" ,"Person2" ,"Common" ,"-ánkú"],
+      ["Common" ,"Negative" ,"SuffSet3" ,"Past" ,"Plural" ,"Person3" ,"Common" ,"-ánkí"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Singular" ,"Person1" ,"Common" ,"-ni"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Singular" ,"Person2" ,"Common" ,"-inti"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Singular" ,"Person3" ,"Masc" ,"-ni"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Singular" ,"Person3" ,"Fem" ,"-inti"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Plural" ,"Person1" ,"Common" ,"-inni"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Plural" ,"Person2" ,"Common" ,"-inte"],
+      ["Common" ,"Subordinate" ,"SuffSet1" ,"Future" ,"Plural" ,"Person3" ,"Common" ,"-ne"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person2" ,"Common" ,"-tí"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person3" ,"Fem" ,"-tí"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Plural" ,"Person1" ,"Common" ,"-ní"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Plural" ,"Person2" ,"Common" ,"-te"],
+      ["ConjA" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Plural" ,"Person3" ,"Common" ,"-e"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Singular" ,"Person2" ,"Common" ,"-áy"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Singular" ,"Person3" ,"Fem" ,"⊤"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Plural" ,"Person1" ,"Common" ,"-ánki"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Plural" ,"Person2" ,"Common" ,"-ánku"],
+      ["ConjA" ,"Affirmative" ,"SuffSet4" ,"Consecutive" ,"Plural" ,"Person3" ,"Common" ,"-ínki"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person1" ,"Common" ,"-i"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person2" ,"Common" ,"-ti"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person3" ,"Masc" ,"-i"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Singular" ,"Person3" ,"Fem" ,"-ti"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Plural" ,"Person1" ,"Common" ,"-ni"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Plural" ,"Person2" ,"Common" ,"-te"],
+      ["ConjB" ,"Affirmative" ,"SuffSet1" ,"Aorist" ,"Plural" ,"Person3" ,"Common" ,"-e"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Singular" ,"Person2" ,"Common" ,"-óy"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Singular" ,"Person3" ,"Fem" ,"-óy"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Plural" ,"Person1" ,"Common" ,"-ónki"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Plural" ,"Person2" ,"Common" ,"-ónku"],
+      ["ConjB" ,"Affirmative" ,"SuffSet2" ,"Consecutive" ,"Plural" ,"Person3" ,"Common" ,"-ónki"]
+    ]
+  }
+]}
